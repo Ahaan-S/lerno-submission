@@ -21,7 +21,7 @@ const W_OG = 1200;
 const H_OG = 630;
 // --base-100 from globals.css (#F8FAFC)
 const BG_LIGHT = { r: 248, g: 250, b: 252, alpha: 1 };
-// --primary-600 (#003159) so the cap reads clearly at 16–32px
+// --primary-600 (#003159) so the cap reads clearly at 16–-2px
 const BG_ICON = { r: 0, g: 49, b: 89, alpha: 1 };
 
 async function main() {
