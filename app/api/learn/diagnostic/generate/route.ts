@@ -7,7 +7,7 @@ import { resolveSubjectSlug } from "@/lib/tutor-subject";
 
 /** POST /api/learn/diagnostic/generate
  * Returns pre-generated diagnostic questions from DB cache (instant).
- * Falls back to Gemini generation + saves to cache if not found. */
+ * Falls back to generation + saves to cache if not found. */
 export async function POST(request: NextRequest) {
   const supabase = await createClient();
   const { data: { user } } = await supabase.auth.getUser();
@@ -49,7 +49,7 @@ export async function POST(request: NextRequest) {
     }
   }
 
-  // Cache miss — rate limit before hitting Gemini
+  // Cache miss: rate limit before generation.
   const rl = await checkRateLimit(user.id, "llm_diagnostic");
   if (!rl.success) {
     console.log("[learn/diagnostic/generate] Rate limited:", user.id);

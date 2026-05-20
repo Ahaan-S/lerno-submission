@@ -1,12 +1,4 @@
-/**
- * lib/ai/doc-scope-detector.ts
- *
- * Detects the content scope for notes/summary generation.
- * Receives: user message + chapter metadata (topics list).
- * Returns: DocScope — which chapter, which topics, human label.
- *
- * Uses chatLite (Gemini Flash Lite, ~200–400ms). Called before Qdrant fetch.
- */
+/** Resolves chapter and topic scope for notes and summaries. */
 
 import { chatLite } from "@/lib/ai/llm";
 import type { DocScope } from "@/lib/ai/doc-types";

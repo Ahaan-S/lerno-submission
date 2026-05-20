@@ -124,7 +124,7 @@ export default function DiagnosticTest({
 
   const cacheKey = `diag_qs:${grade}:${subject}:${chapterIndex}`;
 
-  /** Fetch AI-generated diagnostic questions from /api/learn/diagnostic/generate. */
+  /** Fetch diagnostic questions from /api/learn/diagnostic/generate. */
   const fetchFromGenerate = async (): Promise<GeneratedQuestion[]> => {
     const res = await fetch("/api/learn/diagnostic/generate", {
       method: "POST",

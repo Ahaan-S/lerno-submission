@@ -49,7 +49,7 @@ export type AttachmentMeta = {
   type: string;          // MIME type: "image/jpeg" | "image/png" | "application/pdf" | etc.
   size: number;          // File size in bytes
   extracted_text: string | null; // PDF text content (null for images)
-  description: string | null;    // AI-generated image description (null for PDFs/non-images)
+  description: string | null;    // Image description (null for PDFs/non-images)
 };
 
 export interface TutorSession {

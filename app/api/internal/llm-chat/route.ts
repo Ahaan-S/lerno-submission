@@ -3,8 +3,7 @@ import { chat } from "@/lib/ai/llm";
 import type { ChatMessage, ChatOptions } from "@/lib/ai/llm";
 
 /**
- * Internal proxy for Supabase Edge Functions (e.g. update-student-memory) to call
- * the same Vertex / Gemini stack as the Next.js app without bundling google-auth-library in Deno.
+ * Internal proxy for Supabase Edge Functions that need server-side chat calls.
  */
 export async function POST(req: Request) {
   const secret = req.headers.get("x-lerno-internal-secret");

@@ -1,13 +1,4 @@
-/**
- * lib/ai/doc-generator.ts
- *
- * Generates structured Notes or Summary documents, section by section.
- * One AI call per topic → uniform quality regardless of chapter length.
- *
- * IMPORTANT: generateNotesSection and generateSummarySection are exported
- * because the edit route (app/api/tutor/edit-doc/route.ts) calls them directly
- * to regenerate individual sections.
- */
+/** Notes and summary document generation helpers. */
 
 import { chat } from "@/lib/ai/llm";
 import { isVertexConfigured } from "@/lib/ai/vertex-auth";
@@ -49,7 +40,7 @@ function chunksToPromptText(chunks: QdrantChunk[]): string {
 const vertexUtilityThinking =
   isVertexConfigured() ? ({ thinkingBudget: 0 } as const) : {};
 
-/** Parse JSON object from LLM output; tolerate fences and leading/trailing prose. */
+/** Parse JSON object from model output. */
 function parseLlmJsonObject<TResult>(raw: string): TResult {
   const cleaned = raw.replace(/```json|```/gi, "").trim();
   if (!cleaned) throw new Error("empty model output");

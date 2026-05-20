@@ -5,7 +5,7 @@ import { resolveSubjectSlug } from "@/lib/tutor-subject";
 import { buildLearnProgressSubjectKey } from "@/lib/learn-progress";
 import { tutorChatPathForSession } from "@/lib/social/tutor-share";
 
-/** POST { token } — copy shared session + messages into the current user's account (ChatGPT-style fork). */
+/** POST { token } — copy shared session + messages into the current user's account. */
 export async function POST(request: Request) {
     const supabase = await createClient();
     const {

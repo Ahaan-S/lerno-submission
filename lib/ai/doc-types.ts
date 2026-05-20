@@ -1,10 +1,4 @@
-/**
- * lib/ai/doc-types.ts
- *
- * Shared data types for generated documents (notes, summary, quiz).
- * The AI returns content conforming to these types.
- * The frontend renders them; PDF export uses them too.
- */
+/** Shared document types for notes, summaries, and quizzes. */
 
 // ── Notes types ───────────────────────────────────────────────────────────────
 

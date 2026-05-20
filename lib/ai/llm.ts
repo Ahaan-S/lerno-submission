@@ -1,20 +1,4 @@
-/**
- * lib/ai/llm.ts
- * AI chat client — Google Gemini via OpenAI-compatible API.
- *
- * Auth (pick one):
- *   • Vertex AI — set GCP_PROJECT_ID + GCP_REGION, then either:
- *       – VERTEX_AI_API_KEY (or GOOGLE_API_KEY): key from Google Cloud → API Keys (Vertex AI), NOT AI Studio; or
- *       – GCP_SERVICE_ACCOUNT_JSON / GOOGLE_APPLICATION_CREDENTIALS: OAuth (recommended for production).
- *   • AI Studio (legacy): GEMINI_API_KEY only → generativelanguage.googleapis.com
- *
- * Models (defaults; override with GEMINI_* env):
- *   GEMINI_CHAT_MODEL / GEMINI_VISION_MODEL — tutor streaming, vision, grading, diagnostics (default: google/gemini-2.5-flash)
- *   GEMINI_LITE_MODEL — query rewriting only (default: google/gemini-2.5-flash; optional flash-lite in env where Vertex lists it)
- *
- * ⚠️  GROUNDING: tools:[] is sent on every request to disable Google Search grounding.
- *     Without this, the model may answer from the web instead of NCERT RAG chunks.
- */
+/** Chat client for the tutoring pipeline. */
 
 import {
   getVertexAccessToken,
@@ -26,7 +10,7 @@ import {
 const GEMINI_STUDIO_BASE = "https://generativelanguage.googleapis.com/v1beta/openai";
 const GEMINI_API_KEY = process.env.GEMINI_API_KEY;
 
-// Defaults: Vertex OpenAI-compat IDs (`google/...`). AI Studio: set env to e.g. gemini-2.5-flash (no preview models in defaults).
+// Default model IDs can be overridden in the environment.
 const CHAT_MODEL   = process.env.GEMINI_CHAT_MODEL   ?? "google/gemini-2.5-flash";
 // flash-lite is not available in all regions (e.g. asia-south1 OpenAI-compat); flash rewrites reliably.
 const LITE_MODEL   = process.env.GEMINI_LITE_MODEL   ?? "google/gemini-2.5-flash";
@@ -49,7 +33,7 @@ export interface ChatOptions {
   /** Max completion tokens (learn-mode lessons need headroom; default 8192) */
   maxTokens?: number;
   /**
-   * Vertex only: set Gemini thinking budget to 0 so the model emits normal text in
+   * Vertex only: set thinking budget to 0 so the model emits normal text in
    * `message.content`. Without this, gemini-2.5-* can return empty content for short
    * utility calls (quiz scope, query rewrite) while spending tokens on internal reasoning.
    */
@@ -64,7 +48,7 @@ export interface ChatOptions {
   signal?: AbortSignal;
 }
 
-/** OpenAI-compat assistants may return `content` as a string or as an array of parts. */
+/** Chat responses may return `content` as a string or as an array of parts. */
 function concatOpenAiMessageContent(content: unknown): string {
   if (content == null) return "";
   if (typeof content === "string") return content;
@@ -151,7 +135,7 @@ function isTransientNetworkError(error: unknown): boolean {
   );
 }
 
-/** Rate limits / capacity — safe to retry with backoff (Gemini often returns 503 when demand spikes). */
+/** Rate limits / capacity errors are safe to retry with backoff. */
 function isRetryableGeminiHttpError(error: unknown): boolean {
   if (!(error instanceof Error)) return false;
   const m = error.message.match(/Gemini (?:API |stream )?error (\d+)/);
@@ -337,7 +321,7 @@ export async function chatLite(
     model: LITE_MODEL,
     temperature: 0.1,
     maxTokens: 1024,
-    // Vertex: gemini-2.5-* may otherwise return empty `content` for short JSON tasks.
+    // Vertex may otherwise return empty `content` for short JSON tasks.
     thinkingBudget: isVertexConfigured() ? 0 : undefined,
   });
 }

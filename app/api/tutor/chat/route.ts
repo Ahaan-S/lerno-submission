@@ -112,8 +112,8 @@ const PROMPT_VERSION = 4;
 const VERBOSE_PIPELINE_LOGS = process.env.TUTOR_VERBOSE_PIPELINE_LOGS === "1";
 const ENABLE_QUERY_REWRITE = process.env.TUTOR_QUERY_REWRITE !== "0";
 const QUERY_REWRITE_TIMEOUT_MS = Number(process.env.TUTOR_QUERY_REWRITE_TIMEOUT_MS ?? 6000);
-// Queries longer than this word count get their retrieval query rewritten by the LLM.
-// Shorter queries are already precise enough — the LLM call still runs for k/skipSearch/subject detection,
+// Queries longer than this word count get a rewritten retrieval query.
+// Shorter queries are already precise enough; the model still handles k/skipSearch/subject detection,
 // but the original query text is kept for retrieval.
 const REWRITE_MIN_WORDS = 6;
 const HISTORY_MESSAGE_LIMIT = Number(process.env.TUTOR_HISTORY_MESSAGE_LIMIT ?? 10);
@@ -382,7 +382,7 @@ export async function POST(request: NextRequest) {
         // ── Step: thinking ────────────────────────────────────────────────────
         enqueueSafe({ type: "step:thinking", label: "Thinking..." });
 
-        // Subject detection is folded into the query rewriter (same LLM call, no extra step shown).
+        // Subject detection is folded into the query rewriter.
         // needsSubjectDetection=true when: no subject in body/session, not learn mode, not quick mode.
         // Any task type can trigger detection — the rewriter handles it in the same call.
         let skipRag = false;
@@ -866,7 +866,7 @@ export async function POST(request: NextRequest) {
         } // end outer !skipRag (rewriter)
 
         // Fast path: when rewriter explicitly skipped retrieval and already produced
-        // a usable answer, return it immediately without memory fetch/prompt build/LLM call.
+        // a usable answer, return it immediately.
         if (searchSkipped && skipSearchDirectAnswer) {
           const fastAnswer = skipSearchDirectAnswer;
           const searchSkippedLabel = "Search skipped";

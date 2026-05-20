@@ -9,8 +9,8 @@ A few things to know before you start writing code.
 Clone the repo and install dependencies:
 
 ```bash
-git clone https://github.com/Ahaan-S/lerno-web.git
-cd lerno-web
+git clone https://github.com/Ahaan-S/lerno-submission.git
+cd lerno-submission
 npm install
 ```
 
@@ -28,7 +28,7 @@ npm run dev
 
 The app runs at `http://localhost:3000`. For portal routes, use `http://app.localhost:3000`.
 
-One-time setup for Qdrant indexes (only needed if you're working on the AI pipeline):
+One-time setup for Qdrant indexes (only needed if working on the search pipeline):
 
 ```bash
 npm run qdrant:setup
@@ -48,7 +48,7 @@ git checkout -b feature/what-youre-building
 
 Name branches clearly — `feature/quiz-improvements`, `fix/memory-update-bug`, etc.
 
-When you're done, push your branch and open a Pull Request on GitHub. I'll review and merge it.
+When you're done, push your branch and open a Pull Request on GitHub.
 
 ---
 
@@ -56,7 +56,7 @@ When you're done, push your branch and open a Pull Request on GitHub. I'll revie
 
 **Never commit `.env` or `.env.local`.** These are blocked by `.gitignore` but double-check before pushing. If you accidentally stage one, run `git reset HEAD .env.local` before committing.
 
-**Don't push directly to `main`.** It's protected — the push will be rejected anyway. Always go through a PR.
+**Don't push directly to `main`.** Always go through a PR.
 
 **Keep PRs focused.** One feature or fix per PR. If you're working on something big, break it into smaller pieces.
 
@@ -66,8 +66,6 @@ When you're done, push your branch and open a Pull Request on GitHub. I'll revie
 
 ## Codebase overview
 
-A quick map of where things live:
-
 | Path | What it does |
 |---|---|
 | `app/api/tutor/chat/` | Main RAG pipeline — task detection, retrieval, streaming |
@@ -75,12 +73,9 @@ A quick map of where things live:
 | `lib/chapters.ts` | Chapter/subject data for all grades |
 | `app/portal/` | All student-facing pages (dashboard, chat, onboarding) |
 | `utils/supabase/` | Supabase client setup (server, browser, admin) |
-| `NCERT/` | Raw content, chunks, question extraction scripts |
-
-Read `CLAUDE.md` in the root — it has important notes about the AI pipeline, database conventions, and things not to change.
 
 ---
 
 ## Questions
 
-Just message me directly. Don't guess at something if you're unsure — especially in `lib/ai/` or anything touching the database.
+Message the team directly. Don't guess at something if you're unsure — especially in `lib/ai/` or anything touching the database.

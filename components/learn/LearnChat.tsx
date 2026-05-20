@@ -1326,7 +1326,7 @@ export default function LearnChat({
     }
   };
 
-  /** Chapter tools → Generate notes: document pipeline + PDF (Claude-style artifact), not chat RAG. */
+  /** Chapter tools: generate notes through the document pipeline. */
   const generateStructuredNotesForTopic = async (topicLabel: string) => {
     if (notesGenBusy || isStreaming || kickoffLoading) return;
     closeLearnChapterPanelOnMobile();

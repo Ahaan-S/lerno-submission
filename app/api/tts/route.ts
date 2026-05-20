@@ -11,7 +11,7 @@ const MAX_RAW_TEXT_LEN = 20_000;
 /**
  * POST /api/tts
  *
- * Converts AI-generated markdown text to speech via Sarvam's Bulbul v3 API.
+ * Converts tutor markdown text to speech via Sarvam's Bulbul v3 API.
  * Returns an array of base64-encoded WAV audio strings (one per chunk) that
  * the client plays sequentially.
  *

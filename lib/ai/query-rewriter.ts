@@ -7,7 +7,7 @@ export interface RewriterContext {
   /** The user message immediately before the current one (not the current message) */
   lastUserMessage?: string;
   /**
-   * The last AI response — passed as first 200 chars + last 200 chars.
+   * The last tutor response — passed as first 200 chars + last 200 chars.
    * First chars: captures what topic was being explained.
    * Last chars: captures "would you like to learn more about X?" endings.
    */
@@ -29,7 +29,7 @@ export interface RewriterResult {
    * and Qdrant retrieval should be skipped entirely.
    */
   skipSearch?: boolean;
-  /** Direct reply to use when skipSearch is true (avoids a second LLM call). */
+  /** Direct reply to use when skipSearch is true. */
   directAnswer?: string;
   /** Why retrieval was skipped (useful for analytics/debug). */
   skipReason?: "greeting" | "acknowledgement" | "meta" | "general_knowledge";
@@ -370,7 +370,7 @@ CRITICAL: Your output must be ONLY the JSON object. No markdown. No code fences.
         ...(detectingSubject && { detectedSubject }),
       };
     } catch {
-      // LLM returned plain text instead of JSON — use it as the query with default K
+      // Plain text fallback: use it as the query with default K.
       const fallbackQuery = cleaned.length >= 3 ? cleaned : userMessage || subject;
       console.warn(`[query-rewriter] JSON parse failed, using plain text as query | raw: "${cleaned.slice(0, 80)}"`);
       return { query: fallbackQuery, k: 5, ...(detectingSubject && { detectedSubject: null }) };
@@ -380,7 +380,7 @@ CRITICAL: Your output must be ONLY the JSON object. No markdown. No code fences.
     const isQuota =
       msg.includes("429") || msg.includes("RESOURCE_EXHAUSTED") || msg.includes("quota") || msg.includes("Quota exceeded");
     if (isQuota) {
-      console.warn("[query-rewriter] LLM quota/rate limit — using original text for retrieval (no rewrite)");
+      console.warn("[query-rewriter] Model quota/rate limit — using original text for retrieval (no rewrite)");
     } else {
       console.warn("[query-rewriter] Rewrite failed — using original message:", msg.slice(0, 200));
     }

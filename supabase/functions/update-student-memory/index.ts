@@ -97,7 +97,7 @@ Deno.serve(async (req) => {
       });
     }
 
-    // Build transcript — include confusion markers so LLM can distinguish confusion from curiosity
+    // Include confusion markers so the model can distinguish confusion from curiosity.
     const transcript = messages
       .map((m) => {
         const flags: string[] = [];

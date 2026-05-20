@@ -109,7 +109,7 @@ export function computeUrgenciesForSuggestion(
   return computeSubjectUrgency(bundle.chapters, bundle.topics, bundle.events14d, seed ? [seed] : []);
 }
 
-/** Compact text block for LLM system / user context. */
+/** Compact planner context for prompts. */
 export function formatPlannerBundleForLlm(bundle: PlannerProgressBundle): string {
   const top = bundle.urgencies.slice(0, 6).map((u) => {
     const name = SUBJECT_LABELS[u.subject] ?? u.subject;

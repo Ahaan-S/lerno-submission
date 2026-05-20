@@ -1707,7 +1707,7 @@ export default function DashboardContent({
     initialChapterIndex?: string | null;
     /** When set (e.g. shared chat snapshot), overrides pathname-based ask/learn detection */
     forcedTutorMode?: "ask" | "learn" | null;
-    /** Opaque token: first message forks a copy into the viewer's history (ChatGPT-style) */
+    /** Opaque token: first message forks a copy into the viewer's history. */
     initialShareForkToken?: string | null;
 }) {
     const router = useRouter();

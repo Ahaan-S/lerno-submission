@@ -1,94 +1,145 @@
-# Lerno — AI-Powered NCERT Tutor
+# Lerno - AI Tutoring for Every CBSE Student
 
-> **YCS 2025–26 Submission** · SDG 4: Quality Education
+A personal tutor for every student, built around the NCERT curriculum.
 
-**Live demo → [lerno.in](https://lerno.in)**
-
-Lerno is an AI tutoring platform built for Indian students in grades 6–12. It maps to the NCERT curriculum and gives every student a personal tutor that knows their weak topics, explains concepts at their level, and adapts as they improve — making quality education accessible regardless of where a student lives or whether they can afford private tuition.
+**Live demo: https://lerno.in**
 
 ---
 
-## SDG Alignment
+## Try It (No Setup Needed)
 
-**Goal 4: Quality Education** — *Ensure inclusive and equitable quality education and promote lifelong learning opportunities for all.*
-
-India has 250 million school students. Most learn from a single textbook (NCERT) but have no access to personalised help outside the classroom. Lerno directly addresses this by:
-- Providing 24/7 personalised explanations for every NCERT chapter (grades 6–12)
-- Adapting to each student's pace, weak areas, and learning style
-- Working entirely in the browser — no app download, no setup
+Demo account for judges:
+- Email: demo@lerno.in
+- Password: [TO BE FILLED]
 
 ---
 
 ## What It Does
 
-| Feature | Description |
-|---|---|
-| **Ask Mode** | Free-form Q&A — ask anything from any NCERT chapter and get a cited, subject-aware answer |
-| **Learn Mode** | Structured chapter-by-chapter guided learning with diagnostics and progress tracking |
-| **Study Feed** | Snap-to-card practice questions (MCQ + short answer) for quick revision |
-| **Adaptive Memory** | The AI remembers your weak topics, common mistakes, and learning pace across sessions |
-| **Vision Input** | Upload a photo of a textbook page or handwritten question and get an explanation |
+**Ask Mode** is free-form Q&A. You pick your subject and chapter, type your question, and get a proper answer with citations back to the NCERT content. It understands context — if you ask a follow-up, it knows what you were asking before. You can also upload a photo of a textbook page or a handwritten problem and it'll explain it.
+
+**Learn Mode** is more structured. It takes you through a chapter topic by topic, starts with a quick diagnostic to see what you already know, and then guides you through the gaps. It tracks what you've covered and picks up where you left off. The idea is that it works like a tutor who's actually read your textbook, not a generic chatbot.
+
+**Study Feed** is a card-based practice mode — swipe through MCQs and short-answer questions for any chapter you're studying. It's meant for quick 10-minute revision sessions, not deep learning. Both types of questions are auto-evaluated.
 
 ---
 
-## Tech Stack
+## Why We Built It
 
-| Layer | Technology |
-|---|---|
-| Frontend | Next.js 15 (App Router), TypeScript, Tailwind CSS, shadcn/ui |
-| Backend | Next.js API Routes, Supabase (Postgres + Auth + Storage) |
-| AI / LLM | Google Gemini 2.5 Flash via Vertex AI |
-| Embeddings | OpenAI `text-embedding-3-small` |
-| Vector Search | Qdrant (hybrid dense + full-text, Reciprocal Rank Fusion) |
-| Math Rendering | KaTeX |
-| Monitoring | Sentry |
+Most students in India have exactly one resource for understanding their syllabus — the NCERT textbook. Private tutors exist but are expensive and unavailable in smaller cities. We wanted to build something that gives every student access to the kind of personalised help that used to only exist if you could afford it. This directly addresses SDG 4 (Quality Education) — not by digitising a textbook, but by making a genuinely responsive learning experience available to anyone with a browser.
 
 ---
 
 ## How It Works
 
-**RAG Pipeline** — Student questions go through query rewriting → embedding → hybrid Qdrant search → complexity classification → subject-specific system prompt → Gemini streaming response with `[N]` citations mapped back to NCERT chunk metadata.
+```
+Student question
+       │
+       ▼
+┌─────────────────────┐
+│   Task Detection    │  classify: explain / quiz / solve / notes / summary
+└────────┬────────────┘
+         │
+         ▼
+┌─────────────────────┐
+│   Query Rewriter    │  Gemini lite model rewrites query for better retrieval
+└────────┬────────────┘
+         │
+         ▼
+┌─────────────────────┐
+│     Embedding       │  OpenAI text-embedding-3-small (1536-dim)
+└────────┬────────────┘
+         │
+         ▼
+┌─────────────────────────────────────┐
+│         Qdrant Hybrid Search        │
+│  dense vector + full-text, merged   │
+│  via Reciprocal Rank Fusion (RRF)   │
+└────────┬────────────────────────────┘
+         │  top NCERT chunks
+         ▼
+┌─────────────────────────────────────┐
+│         System Prompt Builder       │
+│  subject format rules +             │
+│  student memory (weak topics,       │
+│  learning pace, past mistakes)      │
+└────────┬────────────────────────────┘
+         │
+         ▼
+┌─────────────────────┐
+│   Gemini Streaming  │  response with [N] citation markers
+└────────┬────────────┘
+         │
+         ▼
+  Citations resolved → saved to DB
+```
 
-**Student Memory** — Per-subject learner profiles track weak/strong topics, recent discussions, common mistakes, and preferred explanation style. Seeded from onboarding; updated by every chat and quiz result. Injected into the system prompt for genuine personalisation.
+Each subject also has its own response format rules — maths answers follow a formula → given/find/solution structure, history uses background → events → significance, and so on.
 
-**Subject-Aware Formatting** — Each subject has its own response format rules. Math answers follow formula → given/find/solution. History answers follow background → events → causes → effects.
+Student memory is per-subject and tracks weak topics, strong topics, common mistakes, and learning pace. It's seeded during onboarding and updated after every session.
+
+---
+
+## Tech Stack
+
+- **Frontend:** Next.js 15 (App Router), TypeScript, Tailwind CSS, shadcn/ui
+- **Backend:** Next.js API routes, Supabase (Postgres + Auth + Storage)
+- **LLM:** Google Gemini 2.5 Flash via Vertex AI
+- **Embeddings:** OpenAI text-embedding-3-small
+- **Vector DB:** Qdrant (hybrid search)
+- **Math rendering:** KaTeX
+- **Auth:** Supabase SSR with cookie-based sessions
+
+---
+
+## Repository Structure
+
+```
+app/
+  (marketing)/        landing page
+  portal/             student-facing app (auth, onboarding, learn, ask, study)
+  api/
+    tutor/            Ask Mode — chat, sessions, messages, file upload
+    learn/            Learn Mode — kickoff, diagnostics, progress, topics
+    study/            Study Feed — question feed, attempts, evaluation
+components/           shared UI
+lib/
+  ai/                 RAG pipeline, memory system, prompts, embeddings
+  chapters.ts         NCERT chapter/subject data for grades 6–12
+hooks/                shared React hooks
+utils/supabase/       Supabase client setup (server, browser, admin, middleware)
+supabase_schema.sql   full database schema
+```
 
 ---
 
 ## Running Locally
 
+You'll need API keys for Supabase, OpenAI (embeddings), Qdrant, and either Vertex AI or Gemini AI Studio.
+
 ```bash
-# 1. Install dependencies
+# install dependencies
 npm install
 
-# 2. Set up environment variables
+# set up env
 cp .env.example .env
-# Fill in: Supabase, OpenAI, Qdrant, and Vertex AI / Gemini keys (see .env.example)
+# fill in the values — comments in .env.example explain each one
 
-# 3. Initialize Qdrant vector indexes
+# set up Qdrant vector indexes (one-time)
 npm run qdrant:setup
 
-# 4. Start dev server
+# start dev server
 npm run dev
-# → http://localhost:3000        (marketing site)
-# → http://app.localhost:3000    (student portal)
 ```
 
-> **Note for judges:** The live app at [lerno.in](https://lerno.in) is fully functional. Reach out for a demo account if you'd like to test without signing up.
+App runs at `http://localhost:3000` (marketing) and `http://app.localhost:3000` (student portal).
 
 ---
 
-## Project Structure
+## Built By
 
-```
-app/
-  (marketing)/        # Landing page
-  portal/             # Auth, onboarding, learn, ask, study feed
-  api/                # API routes (tutor/, learn/, study/)
-components/           # Shared UI components
-lib/
-  ai/                 # LLM pipeline, memory, prompts, RAG
-  supabase/           # DB helpers
-middleware.ts         # Supabase auth + subdomain routing
-supabase_schema.sql   # Full database schema
-```
+**Team Lerno** — YCS 2025–26
+
+- Ahaan Sirohia
+- Hardik Choudhary
+- Siddhant Bajaj

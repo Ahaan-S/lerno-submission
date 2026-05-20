@@ -1,5 +1,5 @@
 /**
- * Strips markdown, LaTeX, and citation markers from AI-generated text so that
+ * Strips markdown, LaTeX, and citation markers from tutor output so that
  * it reads naturally when synthesised by a TTS engine.
  *
  * Order matters — remove fenced blocks before inline code, display math before

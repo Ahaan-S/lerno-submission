@@ -5,7 +5,7 @@
  *   • Service account — OAuth access token (GCP_SERVICE_ACCOUNT_JSON or GOOGLE_APPLICATION_CREDENTIALS)
  *   • Vertex API key — from Google Cloud “API Keys” (restricted to Vertex AI API). Passed as `?key=` on the request URL.
  *
- * AI Studio (`GEMINI_API_KEY` → generativelanguage.googleapis.com) is handled in lib/ai/llm.ts, not here.
+ * API-key fallback is handled in lib/ai/llm.ts, not here.
  */
 
 import type { JWTInput } from "google-auth-library";

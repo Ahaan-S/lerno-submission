@@ -47,15 +47,11 @@ next-env.d.ts
 # Sentry source map upload token (never commit this)
 .env.sentry-build-plugin
 
-# AI development tooling (not part of submission)
+# local dev artifacts
 CLAUDE.md
 CLAUDE_STATIC_DESIGN_REFERENCE.md
 .agents/
 .claude/
 skills-lock*.json
-
-# Editor local history
 .history/
-
-# Firebase deploy cache
 .firebase/

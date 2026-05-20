@@ -1,10 +1,4 @@
-/**
- * lib/ai/doc-edit-detector.ts
- *
- * Determines WHAT to edit in an existing document based on the user's message.
- * Uses chatLite (Gemini Flash Lite, cheap, ~300ms).
- * Called once at the start of every edit request.
- */
+/** Detects which parts of a generated document need editing. */
 
 import { chatLite } from "@/lib/ai/llm";
 
