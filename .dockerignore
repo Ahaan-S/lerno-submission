@@ -1,0 +1,17 @@
+Dockerfile
+.dockerignore
+.git
+.gitignore
+.next
+node_modules
+npm-debug.log
+.env
+.env.local
+.env.*.local
+README.md
+docs/
+scripts/
+!scripts/verify-next-static-assets.mjs
+*.md
+.vercel
+.sentry

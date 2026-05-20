@@ -1,0 +1,1042 @@
+{
+  "grade": "11",
+  "subject": "Accountancy",
+  "language": "english",
+  "year": "2025",
+  "chapters": [
+    {
+      "chapter_index": 1,
+      "chapter_name": "Introduction to Accounting",
+      "page_start": 1,
+      "page_end": 24,
+      "topics": [
+        {
+          "topic_index": "1.0",
+          "topic_name": "Introduction",
+          "page_start": 1,
+          "page_end": 1,
+          "subtopics": [
+            {
+              "subtopic_index": "1.0.0",
+              "subtopic_name": "Introduction",
+              "page_start": 1,
+              "page_end": 1
+            }
+          ]
+        },
+        {
+          "topic_index": "1.1",
+          "topic_name": "Meaning of Accounting",
+          "page_start": 2,
+          "page_end": 6,
+          "subtopics": [
+            {
+              "subtopic_index": "1.1.0",
+              "subtopic_name": "Introduction",
+              "page_start": 2,
+              "page_end": 3
+            },
+            {
+              "subtopic_index": "1.1.1",
+              "subtopic_name": "Economic Events",
+              "page_start": 4,
+              "page_end": 4
+            },
+            {
+              "subtopic_index": "1.1.2",
+              "subtopic_name": "Identification, Measurement, Recording and Communication",
+              "page_start": 5,
+              "page_end": 5
+            },
+            {
+              "subtopic_index": "1.1.3",
+              "subtopic_name": "Organisation",
+              "page_start": 6,
+              "page_end": 6
+            },
+            {
+              "subtopic_index": "1.1.4",
+              "subtopic_name": "Interested Users of Information",
+              "page_start": 6,
+              "page_end": 6
+            }
+          ]
+        },
+        {
+          "topic_index": "1.2",
+          "topic_name": "Accounting as a Source of Information",
+          "page_start": 7,
+          "page_end": 11,
+          "subtopics": [
+            {
+              "subtopic_index": "1.2.0",
+              "subtopic_name": "Introduction",
+              "page_start": 7,
+              "page_end": 8
+            },
+            {
+              "subtopic_index": "1.2.1",
+              "subtopic_name": "Qualitative Characteristics of Accounting Information",
+              "page_start": 9,
+              "page_end": 11
+            }
+          ]
+        },
+        {
+          "topic_index": "1.3",
+          "topic_name": "Objectives of Accounting",
+          "page_start": 12,
+          "page_end": 13,
+          "subtopics": [
+            {
+              "subtopic_index": "1.3.0",
+              "subtopic_name": "Introduction",
+              "page_start": 12,
+              "page_end": 12
+            },
+            {
+              "subtopic_index": "1.3.1",
+              "subtopic_name": "Maintenance of Records of Business Transactions",
+              "page_start": 12,
+              "page_end": 12
+            },
+            {
+              "subtopic_index": "1.3.2",
+              "subtopic_name": "Calculation of Profit and Loss",
+              "page_start": 12,
+              "page_end": 12
+            },
+            {
+              "subtopic_index": "1.3.3",
+              "subtopic_name": "Depiction of Financial Position",
+              "page_start": 13,
+              "page_end": 13
+            },
+            {
+              "subtopic_index": "1.3.4",
+              "subtopic_name": "Providing Accounting Information to its Users",
+              "page_start": 13,
+              "page_end": 13
+            }
+          ]
+        },
+        {
+          "topic_index": "1.4",
+          "topic_name": "Role of Accounting",
+          "page_start": 14,
+          "page_end": 15,
+          "subtopics": [
+            {
+              "subtopic_index": "1.4.0",
+              "subtopic_name": "Introduction",
+              "page_start": 14,
+              "page_end": 15
+            }
+          ]
+        },
+        {
+          "topic_index": "1.5",
+          "topic_name": "Basic Terms in Accounting",
+          "page_start": 16,
+          "page_end": 24,
+          "subtopics": [
+            {
+              "subtopic_index": "1.5.0",
+              "subtopic_name": "Introduction",
+              "page_start": 16,
+              "page_end": 16
+            },
+            {
+              "subtopic_index": "1.5.1",
+              "subtopic_name": "Entity",
+              "page_start": 16,
+              "page_end": 16
+            },
+            {
+              "subtopic_index": "1.5.2",
+              "subtopic_name": "Transaction",
+              "page_start": 16,
+              "page_end": 16
+            },
+            {
+              "subtopic_index": "1.5.3",
+              "subtopic_name": "Assets",
+              "page_start": 16,
+              "page_end": 17
+            },
+            {
+              "subtopic_index": "1.5.4",
+              "subtopic_name": "Liabilities",
+              "page_start": 18,
+              "page_end": 18
+            },
+            {
+              "subtopic_index": "1.5.5",
+              "subtopic_name": "Capital",
+              "page_start": 18,
+              "page_end": 18
+            },
+            {
+              "subtopic_index": "1.5.6",
+              "subtopic_name": "Sales",
+              "page_start": 19,
+              "page_end": 19
+            },
+            {
+              "subtopic_index": "1.5.7",
+              "subtopic_name": "Revenues",
+              "page_start": 19,
+              "page_end": 19
+            },
+            {
+              "subtopic_index": "1.5.8",
+              "subtopic_name": "Expenses",
+              "page_start": 19,
+              "page_end": 19
+            },
+            {
+              "subtopic_index": "1.5.9",
+              "subtopic_name": "Expenditure",
+              "page_start": 19,
+              "page_end": 19
+            },
+            {
+              "subtopic_index": "1.5.10",
+              "subtopic_name": "Profit",
+              "page_start": 19,
+              "page_end": 19
+            },
+            {
+              "subtopic_index": "1.5.11",
+              "subtopic_name": "Gain",
+              "page_start": 19,
+              "page_end": 19
+            },
+            {
+              "subtopic_index": "1.5.12",
+              "subtopic_name": "Loss",
+              "page_start": 19,
+              "page_end": 19
+            },
+            {
+              "subtopic_index": "1.5.13",
+              "subtopic_name": "Discount",
+              "page_start": 20,
+              "page_end": 20
+            },
+            {
+              "subtopic_index": "1.5.14",
+              "subtopic_name": "Voucher",
+              "page_start": 20,
+              "page_end": 20
+            },
+            {
+              "subtopic_index": "1.5.15",
+              "subtopic_name": "Goods",
+              "page_start": 20,
+              "page_end": 20
+            },
+            {
+              "subtopic_index": "1.5.16",
+              "subtopic_name": "Drawings",
+              "page_start": 20,
+              "page_end": 20
+            },
+            {
+              "subtopic_index": "1.5.17",
+              "subtopic_name": "Purchases",
+              "page_start": 20,
+              "page_end": 20
+            },
+            {
+              "subtopic_index": "1.5.18",
+              "subtopic_name": "Stock",
+              "page_start": 21,
+              "page_end": 21
+            },
+            {
+              "subtopic_index": "1.5.19",
+              "subtopic_name": "Debtors",
+              "page_start": 21,
+              "page_end": 21
+            },
+            {
+              "subtopic_index": "1.5.20",
+              "subtopic_name": "Creditors",
+              "page_start": 21,
+              "page_end": 24
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "chapter_index": 2,
+      "chapter_name": "Theory Base of Accounting",
+      "page_start": 25,
+      "page_end": 45,
+      "topics": [
+        {
+          "topic_index": "2.0",
+          "topic_name": "Introduction",
+          "page_start": 25,
+          "page_end": 25,
+          "subtopics": [
+            {
+              "subtopic_index": "2.0.0",
+              "subtopic_name": "Introduction",
+              "page_start": 25,
+              "page_end": 25
+            }
+          ]
+        },
+        {
+          "topic_index": "2.1",
+          "topic_name": "Generally Accepted Accounting Principles",
+          "page_start": 26,
+          "page_end": 26,
+          "subtopics": [
+            {
+              "subtopic_index": "2.1.0",
+              "subtopic_name": "Introduction",
+              "page_start": 26,
+              "page_end": 26
+            }
+          ]
+        },
+        {
+          "topic_index": "2.2",
+          "topic_name": "Basic Accounting Concepts",
+          "page_start": 27,
+          "page_end": 35,
+          "subtopics": [
+            {
+              "subtopic_index": "2.2.0",
+              "subtopic_name": "Introduction",
+              "page_start": 27,
+              "page_end": 27
+            },
+            {
+              "subtopic_index": "2.2.1",
+              "subtopic_name": "Business Entity Concept",
+              "page_start": 27,
+              "page_end": 27
+            },
+            {
+              "subtopic_index": "2.2.2",
+              "subtopic_name": "Money Measurement Concept",
+              "page_start": 28,
+              "page_end": 28
+            },
+            {
+              "subtopic_index": "2.2.3",
+              "subtopic_name": "Going Concern Concept",
+              "page_start": 28,
+              "page_end": 28
+            },
+            {
+              "subtopic_index": "2.2.4",
+              "subtopic_name": "Accounting Period Concept",
+              "page_start": 29,
+              "page_end": 29
+            },
+            {
+              "subtopic_index": "2.2.5",
+              "subtopic_name": "Cost Concept",
+              "page_start": 30,
+              "page_end": 30
+            },
+            {
+              "subtopic_index": "2.2.6",
+              "subtopic_name": "Dual Aspect Concept",
+              "page_start": 31,
+              "page_end": 31
+            },
+            {
+              "subtopic_index": "2.2.7",
+              "subtopic_name": "Revenue Recognition (Realisation) Concept",
+              "page_start": 31,
+              "page_end": 31
+            },
+            {
+              "subtopic_index": "2.2.8",
+              "subtopic_name": "Matching Concept",
+              "page_start": 32,
+              "page_end": 32
+            },
+            {
+              "subtopic_index": "2.2.9",
+              "subtopic_name": "Full Disclosure Concept",
+              "page_start": 33,
+              "page_end": 33
+            },
+            {
+              "subtopic_index": "2.2.10",
+              "subtopic_name": "Consistency Concept",
+              "page_start": 33,
+              "page_end": 33
+            },
+            {
+              "subtopic_index": "2.2.11",
+              "subtopic_name": "Conservatism Concept",
+              "page_start": 34,
+              "page_end": 34
+            },
+            {
+              "subtopic_index": "2.2.12",
+              "subtopic_name": "Materiality Concept",
+              "page_start": 34,
+              "page_end": 34
+            },
+            {
+              "subtopic_index": "2.2.13",
+              "subtopic_name": "Objectivity Concept",
+              "page_start": 35,
+              "page_end": 35
+            }
+          ]
+        },
+        {
+          "topic_index": "2.3",
+          "topic_name": "Systems of Accounting",
+          "page_start": 36,
+          "page_end": 36,
+          "subtopics": [
+            {
+              "subtopic_index": "2.3.0",
+              "subtopic_name": "Introduction",
+              "page_start": 36,
+              "page_end": 36
+            }
+          ]
+        },
+        {
+          "topic_index": "2.4",
+          "topic_name": "Basis of Accounting",
+          "page_start": 36,
+          "page_end": 36,
+          "subtopics": [
+            {
+              "subtopic_index": "2.4.0",
+              "subtopic_name": "Introduction",
+              "page_start": 36,
+              "page_end": 36
+            }
+          ]
+        },
+        {
+          "topic_index": "2.5",
+          "topic_name": "Accounting Standards",
+          "page_start": 37,
+          "page_end": 45,
+          "subtopics": [
+            {
+              "subtopic_index": "2.5.0",
+              "subtopic_name": "Introduction",
+              "page_start": 37,
+              "page_end": 45
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "chapter_index": 3,
+      "chapter_name": "Recording of Transactions — I",
+      "page_start": 46,
+      "page_end": 98,
+      "topics": [
+        {
+          "topic_index": "3.0",
+          "topic_name": "Introduction",
+          "page_start": 46,
+          "page_end": 46,
+          "subtopics": [
+            {
+              "subtopic_index": "3.0.0",
+              "subtopic_name": "Introduction",
+              "page_start": 46,
+              "page_end": 46
+            }
+          ]
+        },
+        {
+          "topic_index": "3.1",
+          "topic_name": "Business Transactions and Source Document",
+          "page_start": 46,
+          "page_end": 49,
+          "subtopics": [
+            {
+              "subtopic_index": "3.1.0",
+              "subtopic_name": "Introduction",
+              "page_start": 46,
+              "page_end": 46
+            },
+            {
+              "subtopic_index": "3.1.1",
+              "subtopic_name": "Preparation of Accounting Vouchers",
+              "page_start": 47,
+              "page_end": 49
+            }
+          ]
+        },
+        {
+          "topic_index": "3.2",
+          "topic_name": "Accounting Equation",
+          "page_start": 50,
+          "page_end": 51,
+          "subtopics": [
+            {
+              "subtopic_index": "3.2.0",
+              "subtopic_name": "Introduction",
+              "page_start": 50,
+              "page_end": 51
+            }
+          ]
+        },
+        {
+          "topic_index": "3.3",
+          "topic_name": "Using Debit and Credit",
+          "page_start": 52,
+          "page_end": 59,
+          "subtopics": [
+            {
+              "subtopic_index": "3.3.0",
+              "subtopic_name": "Introduction",
+              "page_start": 52,
+              "page_end": 53
+            },
+            {
+              "subtopic_index": "3.3.1",
+              "subtopic_name": "Rules of Debit and Credit",
+              "page_start": 54,
+              "page_end": 59
+            }
+          ]
+        },
+        {
+          "topic_index": "3.4",
+          "topic_name": "Books of Original Entry",
+          "page_start": 60,
+          "page_end": 71,
+          "subtopics": [
+            {
+              "subtopic_index": "3.4.0",
+              "subtopic_name": "Introduction",
+              "page_start": 60,
+              "page_end": 60
+            },
+            {
+              "subtopic_index": "3.4.1",
+              "subtopic_name": "Journal",
+              "page_start": 61,
+              "page_end": 71
+            }
+          ]
+        },
+        {
+          "topic_index": "3.5",
+          "topic_name": "The Ledger",
+          "page_start": 72,
+          "page_end": 75,
+          "subtopics": [
+            {
+              "subtopic_index": "3.5.0",
+              "subtopic_name": "Introduction",
+              "page_start": 72,
+              "page_end": 74
+            },
+            {
+              "subtopic_index": "3.5.1",
+              "subtopic_name": "Classification of Ledger Accounts",
+              "page_start": 75,
+              "page_end": 75
+            }
+          ]
+        },
+        {
+          "topic_index": "3.6",
+          "topic_name": "Posting from Journal",
+          "page_start": 75,
+          "page_end": 98,
+          "subtopics": [
+            {
+              "subtopic_index": "3.6.0",
+              "subtopic_name": "Introduction",
+              "page_start": 75,
+              "page_end": 98
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "chapter_index": 4,
+      "chapter_name": "Recording of Transactions — II",
+      "page_start": 99,
+      "page_end": 159,
+      "topics": [
+        {
+          "topic_index": "4.0",
+          "topic_name": "Introduction",
+          "page_start": 99,
+          "page_end": 99,
+          "subtopics": [
+            {
+              "subtopic_index": "4.0.0",
+              "subtopic_name": "Introduction",
+              "page_start": 99,
+              "page_end": 99
+            }
+          ]
+        },
+        {
+          "topic_index": "4.1",
+          "topic_name": "Cash Book",
+          "page_start": 100,
+          "page_end": 124,
+          "subtopics": [
+            {
+              "subtopic_index": "4.1.0",
+              "subtopic_name": "Introduction",
+              "page_start": 100,
+              "page_end": 100
+            },
+            {
+              "subtopic_index": "4.1.1",
+              "subtopic_name": "Single Column Cash Book",
+              "page_start": 100,
+              "page_end": 102
+            },
+            {
+              "subtopic_index": "4.1.2",
+              "subtopic_name": "Double Column Cash Book",
+              "page_start": 103,
+              "page_end": 108
+            },
+            {
+              "subtopic_index": "4.1.3",
+              "subtopic_name": "Petty Cash Book",
+              "page_start": 109,
+              "page_end": 113
+            },
+            {
+              "subtopic_index": "4.1.4",
+              "subtopic_name": "Balancing of Cash Book",
+              "page_start": 114,
+              "page_end": 124
+            }
+          ]
+        },
+        {
+          "topic_index": "4.2",
+          "topic_name": "Purchases (Journal) Book",
+          "page_start": 125,
+          "page_end": 126,
+          "subtopics": [
+            {
+              "subtopic_index": "4.2.0",
+              "subtopic_name": "Introduction",
+              "page_start": 125,
+              "page_end": 126
+            }
+          ]
+        },
+        {
+          "topic_index": "4.3",
+          "topic_name": "Purchases Return (Journal) Book",
+          "page_start": 127,
+          "page_end": 128,
+          "subtopics": [
+            {
+              "subtopic_index": "4.3.0",
+              "subtopic_name": "Introduction",
+              "page_start": 127,
+              "page_end": 128
+            }
+          ]
+        },
+        {
+          "topic_index": "4.4",
+          "topic_name": "Sales (Journal) Book",
+          "page_start": 129,
+          "page_end": 130,
+          "subtopics": [
+            {
+              "subtopic_index": "4.4.0",
+              "subtopic_name": "Introduction",
+              "page_start": 129,
+              "page_end": 130
+            }
+          ]
+        },
+        {
+          "topic_index": "4.5",
+          "topic_name": "Sales Return (Journal) Book",
+          "page_start": 131,
+          "page_end": 138,
+          "subtopics": [
+            {
+              "subtopic_index": "4.5.0",
+              "subtopic_name": "Introduction",
+              "page_start": 131,
+              "page_end": 138
+            }
+          ]
+        },
+        {
+          "topic_index": "4.6",
+          "topic_name": "Journal Proper",
+          "page_start": 139,
+          "page_end": 140,
+          "subtopics": [
+            {
+              "subtopic_index": "4.6.0",
+              "subtopic_name": "Introduction",
+              "page_start": 139,
+              "page_end": 140
+            }
+          ]
+        },
+        {
+          "topic_index": "4.7",
+          "topic_name": "Balancing the Accounts",
+          "page_start": 141,
+          "page_end": 159,
+          "subtopics": [
+            {
+              "subtopic_index": "4.7.0",
+              "subtopic_name": "Introduction",
+              "page_start": 141,
+              "page_end": 159
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "chapter_index": 5,
+      "chapter_name": "Bank Reconciliation Statement",
+      "page_start": 160,
+      "page_end": 179,
+      "topics": [
+        {
+          "topic_index": "5.0",
+          "topic_name": "Introduction",
+          "page_start": 160,
+          "page_end": 160,
+          "subtopics": [
+            {
+              "subtopic_index": "5.0.0",
+              "subtopic_name": "Introduction",
+              "page_start": 160,
+              "page_end": 160
+            }
+          ]
+        },
+        {
+          "topic_index": "5.1",
+          "topic_name": "Need for Reconciliation",
+          "page_start": 161,
+          "page_end": 165,
+          "subtopics": [
+            {
+              "subtopic_index": "5.1.0",
+              "subtopic_name": "Introduction",
+              "page_start": 161,
+              "page_end": 162
+            },
+            {
+              "subtopic_index": "5.1.1",
+              "subtopic_name": "Timing Differences",
+              "page_start": 163,
+              "page_end": 163
+            },
+            {
+              "subtopic_index": "5.1.1.1",
+              "subtopic_name": "(a) Cheques issued by the bank but not yet presented for payment",
+              "page_start": 163,
+              "page_end": 163
+            },
+            {
+              "subtopic_index": "5.1.1.2",
+              "subtopic_name": "(b) Cheques paid into the bank but not yet collected",
+              "page_start": 163,
+              "page_end": 163
+            },
+            {
+              "subtopic_index": "5.1.1.3",
+              "subtopic_name": "(c) Direct debits made by the bank on behalf of the customer",
+              "page_start": 163,
+              "page_end": 163
+            },
+            {
+              "subtopic_index": "5.1.1.4",
+              "subtopic_name": "(d) Amounts directly deposited in the bank account",
+              "page_start": 164,
+              "page_end": 164
+            },
+            {
+              "subtopic_index": "5.1.1.5",
+              "subtopic_name": "(e) Interest and dividends collected by the bank",
+              "page_start": 164,
+              "page_end": 164
+            },
+            {
+              "subtopic_index": "5.1.1.6",
+              "subtopic_name": "(f) Direct payments made by the bank on behalf of the customers",
+              "page_start": 164,
+              "page_end": 164
+            },
+            {
+              "subtopic_index": "5.1.1.7",
+              "subtopic_name": "(g) Cheques deposited/bills discounted dishonoured",
+              "page_start": 164,
+              "page_end": 164
+            },
+            {
+              "subtopic_index": "5.1.2",
+              "subtopic_name": "Differences Caused by Errors",
+              "page_start": 164,
+              "page_end": 164
+            },
+            {
+              "subtopic_index": "5.1.2.1",
+              "subtopic_name": "(a) Errors committed in recording transaction by the firm",
+              "page_start": 165,
+              "page_end": 165
+            },
+            {
+              "subtopic_index": "5.1.2.2",
+              "subtopic_name": "(b) Errors committed in recording transactions by the bank",
+              "page_start": 165,
+              "page_end": 165
+            }
+          ]
+        },
+        {
+          "topic_index": "5.2",
+          "topic_name": "Preparation of Bank Reconciliation Statement",
+          "page_start": 166,
+          "page_end": 179,
+          "subtopics": [
+            {
+              "subtopic_index": "5.2.0",
+              "subtopic_name": "Introduction",
+              "page_start": 166,
+              "page_end": 166
+            },
+            {
+              "subtopic_index": "5.2.1",
+              "subtopic_name": "Preparation of Bank Reconciliation Statement without adjusting Cash",
+              "page_start": 166,
+              "page_end": 166
+            },
+            {
+              "subtopic_index": "5.2.1.1",
+              "subtopic_name": "(a) Dealing with favourable balances",
+              "page_start": 167,
+              "page_end": 168
+            },
+            {
+              "subtopic_index": "5.2.1.2",
+              "subtopic_name": "(b) Dealing with overdrafts",
+              "page_start": 169,
+              "page_end": 179
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "chapter_index": 6,
+      "chapter_name": "Trial Balance and Rectification of Errors",
+      "page_start": 180,
+      "page_end": 225,
+      "topics": [
+        {
+          "topic_index": "6.0",
+          "topic_name": "Introduction",
+          "page_start": 180,
+          "page_end": 180,
+          "subtopics": [
+            {
+              "subtopic_index": "6.0.0",
+              "subtopic_name": "Introduction",
+              "page_start": 180,
+              "page_end": 180
+            }
+          ]
+        },
+        {
+          "topic_index": "6.1",
+          "topic_name": "Meaning of Trial Balance",
+          "page_start": 180,
+          "page_end": 180,
+          "subtopics": [
+            {
+              "subtopic_index": "6.1.0",
+              "subtopic_name": "Introduction",
+              "page_start": 180,
+              "page_end": 180
+            }
+          ]
+        },
+        {
+          "topic_index": "6.2",
+          "topic_name": "Objectives of Preparing the Trial Balance",
+          "page_start": 181,
+          "page_end": 183,
+          "subtopics": [
+            {
+              "subtopic_index": "6.2.0",
+              "subtopic_name": "Introduction",
+              "page_start": 181,
+              "page_end": 181
+            },
+            {
+              "subtopic_index": "6.2.1",
+              "subtopic_name": "To Ascertain the Arithmetical Accuracy of Ledger Accounts",
+              "page_start": 182,
+              "page_end": 182
+            },
+            {
+              "subtopic_index": "6.2.2",
+              "subtopic_name": "To Help in Locating Errors",
+              "page_start": 183,
+              "page_end": 183
+            },
+            {
+              "subtopic_index": "6.2.3",
+              "subtopic_name": "To Help in the Preparation of the Financial Statements",
+              "page_start": 183,
+              "page_end": 183
+            }
+          ]
+        },
+        {
+          "topic_index": "6.3",
+          "topic_name": "Preparation of Trial Balance",
+          "page_start": 184,
+          "page_end": 188,
+          "subtopics": [
+            {
+              "subtopic_index": "6.3.0",
+              "subtopic_name": "Introduction",
+              "page_start": 184,
+              "page_end": 184
+            },
+            {
+              "subtopic_index": "6.3.1",
+              "subtopic_name": "Totals method",
+              "page_start": 184,
+              "page_end": 184
+            },
+            {
+              "subtopic_index": "6.3.2",
+              "subtopic_name": "Balances Method",
+              "page_start": 184,
+              "page_end": 184
+            },
+            {
+              "subtopic_index": "6.3.3",
+              "subtopic_name": "Totals-cum-balances Method",
+              "page_start": 184,
+              "page_end": 188
+            }
+          ]
+        },
+        {
+          "topic_index": "6.4",
+          "topic_name": "Significance of Agreement of Trial Balance",
+          "page_start": 189,
+          "page_end": 190,
+          "subtopics": [
+            {
+              "subtopic_index": "6.4.0",
+              "subtopic_name": "Introduction",
+              "page_start": 189,
+              "page_end": 189
+            },
+            {
+              "subtopic_index": "6.4.1",
+              "subtopic_name": "Classification of Errors",
+              "page_start": 189,
+              "page_end": 189
+            },
+            {
+              "subtopic_index": "6.4.2",
+              "subtopic_name": "Errors of Commission",
+              "page_start": 189,
+              "page_end": 189
+            },
+            {
+              "subtopic_index": "6.4.3",
+              "subtopic_name": "Errors of Omission",
+              "page_start": 190,
+              "page_end": 190
+            },
+            {
+              "subtopic_index": "6.4.4",
+              "subtopic_name": "Errors of Principle",
+              "page_start": 190,
+              "page_end": 190
+            },
+            {
+              "subtopic_index": "6.4.5",
+              "subtopic_name": "Compensating Errors",
+              "page_start": 190,
+              "page_end": 190
+            }
+          ]
+        },
+        {
+          "topic_index": "6.5",
+          "topic_name": "Searching of Errors",
+          "page_start": 191,
+          "page_end": 191,
+          "subtopics": [
+            {
+              "subtopic_index": "6.5.0",
+              "subtopic_name": "Introduction",
+              "page_start": 191,
+              "page_end": 191
+            }
+          ]
+        },
+        {
+          "topic_index": "6.6",
+          "topic_name": "Rectification of Errors",
+          "page_start": 192,
+          "page_end": 225,
+          "subtopics": [
+            {
+              "subtopic_index": "6.6.0",
+              "subtopic_name": "Introduction",
+              "page_start": 192,
+              "page_end": 192
+            },
+            {
+              "subtopic_index": "6.6.1",
+              "subtopic_name": "Rectification of Errors which do not Affect the Trial Balance",
+              "page_start": 192,
+              "page_end": 195
+            },
+            {
+              "subtopic_index": "6.6.2",
+              "subtopic_name": "Rectification of Errors Affecting Trial Balance",
+              "page_start": 196,
+              "page_end": 201
+            },
+            {
+              "subtopic_index": "6.6.3",
+              "subtopic_name": "Rectification of Errors in the Next Accounting Year",
+              "page_start": 202,
+              "page_end": 225
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

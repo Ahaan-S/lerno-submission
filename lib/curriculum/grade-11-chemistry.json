@@ -1,0 +1,640 @@
+{
+  "grade": "11",
+  "subject": "Chemistry",
+  "language": "english",
+  "year": "2025",
+  "chapters": [
+    {
+      "chapter_index": 1,
+      "chapter_name": "Some Basic Concepts of Chemistry",
+      "page_start": 1,
+      "page_end": 28,
+      "topics": [
+        {
+          "topic_index": "1.1",
+          "topic_name": "Importance of Chemistry",
+          "page_start": 4,
+          "page_end": 4,
+          "subtopics": [
+            { "subtopic_index": "1.1.0", "subtopic_name": "Introduction", "page_start": 4, "page_end": 4 }
+          ]
+        },
+        {
+          "topic_index": "1.2",
+          "topic_name": "Nature of Matter",
+          "page_start": 4,
+          "page_end": 5,
+          "subtopics": [
+            { "subtopic_index": "1.2.0", "subtopic_name": "Introduction", "page_start": 4, "page_end": 4 },
+            { "subtopic_index": "1.2.1", "subtopic_name": "States of Matter", "page_start": 4, "page_end": 4 },
+            { "subtopic_index": "1.2.2", "subtopic_name": "Classification of Matter", "page_start": 5, "page_end": 5 }
+          ]
+        },
+        {
+          "topic_index": "1.3",
+          "topic_name": "Properties of Matter and their Measurement",
+          "page_start": 6,
+          "page_end": 10,
+          "subtopics": [
+            { "subtopic_index": "1.3.0", "subtopic_name": "Introduction", "page_start": 6, "page_end": 6 },
+            { "subtopic_index": "1.3.1", "subtopic_name": "Physical and Chemical Properties", "page_start": 6, "page_end": 6 },
+            { "subtopic_index": "1.3.2", "subtopic_name": "Measurement of Physical Properties", "page_start": 7, "page_end": 7 },
+            { "subtopic_index": "1.3.3", "subtopic_name": "The International System of Units (SI)", "page_start": 7, "page_end": 8 },
+            { "subtopic_index": "1.3.4", "subtopic_name": "Mass and Weight", "page_start": 9, "page_end": 9 },
+            { "subtopic_index": "1.3.5", "subtopic_name": "Volume", "page_start": 9, "page_end": 9 },
+            { "subtopic_index": "1.3.6", "subtopic_name": "Density", "page_start": 10, "page_end": 10 },
+            { "subtopic_index": "1.3.7", "subtopic_name": "Temperature", "page_start": 10, "page_end": 10 }
+          ]
+        },
+        {
+          "topic_index": "1.4",
+          "topic_name": "Uncertainty in Measurement",
+          "page_start": 10,
+          "page_end": 13,
+          "subtopics": [
+            { "subtopic_index": "1.4.0", "subtopic_name": "Introduction", "page_start": 10, "page_end": 10 },
+            { "subtopic_index": "1.4.1", "subtopic_name": "Scientific Notation", "page_start": 11, "page_end": 11 },
+            { "subtopic_index": "1.4.2", "subtopic_name": "Significant Figures", "page_start": 12, "page_end": 12 },
+            { "subtopic_index": "1.4.3", "subtopic_name": "Dimensional Analysis", "page_start": 13, "page_end": 13 }
+          ]
+        },
+        {
+          "topic_index": "1.5",
+          "topic_name": "Laws of Chemical Combinations",
+          "page_start": 14,
+          "page_end": 15,
+          "subtopics": [
+            { "subtopic_index": "1.5.0", "subtopic_name": "Introduction", "page_start": 14, "page_end": 14 },
+            { "subtopic_index": "1.5.1", "subtopic_name": "Law of Conservation of Mass", "page_start": 14, "page_end": 14 },
+            { "subtopic_index": "1.5.2", "subtopic_name": "Law of Definite Proportions", "page_start": 15, "page_end": 15 },
+            { "subtopic_index": "1.5.3", "subtopic_name": "Law of Multiple Proportions", "page_start": 15, "page_end": 15 },
+            { "subtopic_index": "1.5.4", "subtopic_name": "Gay Lussac's Law of Gaseous Volumes", "page_start": 15, "page_end": 15 },
+            { "subtopic_index": "1.5.5", "subtopic_name": "Avogadro Law", "page_start": 15, "page_end": 15 }
+          ]
+        },
+        {
+          "topic_index": "1.6",
+          "topic_name": "Dalton's Atomic Theory",
+          "page_start": 16,
+          "page_end": 16,
+          "subtopics": [
+            { "subtopic_index": "1.6.0", "subtopic_name": "Introduction", "page_start": 16, "page_end": 16 }
+          ]
+        },
+        {
+          "topic_index": "1.7",
+          "topic_name": "Atomic and Molecular Masses",
+          "page_start": 16,
+          "page_end": 17,
+          "subtopics": [
+            { "subtopic_index": "1.7.0", "subtopic_name": "Introduction", "page_start": 16, "page_end": 16 },
+            { "subtopic_index": "1.7.1", "subtopic_name": "Atomic Mass", "page_start": 16, "page_end": 16 },
+            { "subtopic_index": "1.7.2", "subtopic_name": "Average Atomic Mass", "page_start": 17, "page_end": 17 },
+            { "subtopic_index": "1.7.3", "subtopic_name": "Molecular Mass", "page_start": 17, "page_end": 17 },
+            { "subtopic_index": "1.7.4", "subtopic_name": "Formula Mass", "page_start": 17, "page_end": 17 }
+          ]
+        },
+        {
+          "topic_index": "1.8",
+          "topic_name": "Mole Concept and Molar Masses",
+          "page_start": 18,
+          "page_end": 18,
+          "subtopics": [
+            { "subtopic_index": "1.8.0", "subtopic_name": "Introduction", "page_start": 18, "page_end": 18 }
+          ]
+        },
+        {
+          "topic_index": "1.9",
+          "topic_name": "Percentage Composition",
+          "page_start": 18,
+          "page_end": 19,
+          "subtopics": [
+            { "subtopic_index": "1.9.0", "subtopic_name": "Introduction", "page_start": 18, "page_end": 18 },
+            { "subtopic_index": "1.9.1", "subtopic_name": "Empirical Formula for Molecular Formula", "page_start": 19, "page_end": 19 }
+          ]
+        },
+        {
+          "topic_index": "1.10",
+          "topic_name": "Stoichiometry and Stoichiometric Calculations",
+          "page_start": 20,
+          "page_end": 24,
+          "subtopics": [
+            { "subtopic_index": "1.10.0", "subtopic_name": "Introduction", "page_start": 20, "page_end": 20 },
+            { "subtopic_index": "1.10.1", "subtopic_name": "Balancing a Chemical Equation", "page_start": 20, "page_end": 20 },
+            { "subtopic_index": "1.10.2", "subtopic_name": "Reactions in Solutions", "page_start": 21, "page_end": 24 }
+          ]
+        }
+      ]
+    },
+    {
+      "chapter_index": 2,
+      "chapter_name": "Structure of Atom",
+      "page_start": 30,
+      "page_end": 73,
+      "topics": [
+        {
+          "topic_index": "2.1",
+          "topic_name": "Discovery of Sub-atomic Particles",
+          "page_start": 30,
+          "page_end": 32,
+          "subtopics": [
+            { "subtopic_index": "2.1.0", "subtopic_name": "Introduction", "page_start": 30, "page_end": 30 },
+            { "subtopic_index": "2.1.1", "subtopic_name": "Discovery of Electron", "page_start": 30, "page_end": 30 },
+            { "subtopic_index": "2.1.2", "subtopic_name": "Charge to Mass Ratio of Electron", "page_start": 31, "page_end": 31 },
+            { "subtopic_index": "2.1.3", "subtopic_name": "Charge on the Electron", "page_start": 31, "page_end": 31 },
+            { "subtopic_index": "2.1.4", "subtopic_name": "Discovery of Protons and Neutrons", "page_start": 32, "page_end": 32 }
+          ]
+        },
+        {
+          "topic_index": "2.2",
+          "topic_name": "Atomic Models",
+          "page_start": 32,
+          "page_end": 36,
+          "subtopics": [
+            { "subtopic_index": "2.2.0", "subtopic_name": "Introduction", "page_start": 32, "page_end": 32 },
+            { "subtopic_index": "2.2.1", "subtopic_name": "Thomson Model of Atom", "page_start": 33, "page_end": 33 },
+            { "subtopic_index": "2.2.2", "subtopic_name": "Rutherford's Nuclear Model of Atom", "page_start": 34, "page_end": 34 },
+            { "subtopic_index": "2.2.3", "subtopic_name": "Atomic Number and Mass Number", "page_start": 35, "page_end": 35 },
+            { "subtopic_index": "2.2.4", "subtopic_name": "Isobars and Isotopes", "page_start": 35, "page_end": 35 },
+            { "subtopic_index": "2.2.5", "subtopic_name": "Drawbacks of Rutherford Model", "page_start": 36, "page_end": 36 }
+          ]
+        },
+        {
+          "topic_index": "2.3",
+          "topic_name": "Developments Leading to the Bohr's Model of Atom",
+          "page_start": 37,
+          "page_end": 45,
+          "subtopics": [
+            { "subtopic_index": "2.3.0", "subtopic_name": "Introduction", "page_start": 37, "page_end": 37 },
+            { "subtopic_index": "2.3.1", "subtopic_name": "Wave Nature of Electromagnetic Radiation", "page_start": 37, "page_end": 38 },
+            { "subtopic_index": "2.3.2", "subtopic_name": "Particle Nature of Electromagnetic Radiation", "page_start": 39, "page_end": 43 },
+            { "subtopic_index": "2.3.3", "subtopic_name": "Evidence for the Quantized Electronic Energy Levels: Atomic Spectra", "page_start": 44, "page_end": 45 }
+          ]
+        },
+        {
+          "topic_index": "2.4",
+          "topic_name": "Bohr's Model for Hydrogen Atom",
+          "page_start": 46,
+          "page_end": 49,
+          "subtopics": [
+            { "subtopic_index": "2.4.0", "subtopic_name": "Introduction", "page_start": 46, "page_end": 47 },
+            { "subtopic_index": "2.4.1", "subtopic_name": "Explanation of Line Spectrum of Hydrogen", "page_start": 48, "page_end": 48 },
+            { "subtopic_index": "2.4.2", "subtopic_name": "Limitations of Bohr's Model", "page_start": 49, "page_end": 49 }
+          ]
+        },
+        {
+          "topic_index": "2.5",
+          "topic_name": "Towards Quantum Mechanical Model of the Atom",
+          "page_start": 49,
+          "page_end": 52,
+          "subtopics": [
+            { "subtopic_index": "2.5.0", "subtopic_name": "Introduction", "page_start": 49, "page_end": 49 },
+            { "subtopic_index": "2.5.1", "subtopic_name": "Dual Behaviour of Electromagnetic Radiation", "page_start": 49, "page_end": 49 },
+            { "subtopic_index": "2.5.2", "subtopic_name": "Particle Nature of Matter: de Broglie's Relationship", "page_start": 50, "page_end": 52 }
+          ]
+        },
+        {
+          "topic_index": "2.6",
+          "topic_name": "Quantum Mechanical Model of Atom",
+          "page_start": 53,
+          "page_end": 68,
+          "subtopics": [
+            { "subtopic_index": "2.6.0", "subtopic_name": "Introduction", "page_start": 53, "page_end": 53 },
+            { "subtopic_index": "2.6.1", "subtopic_name": "Heisenberg Uncertainty Principle", "page_start": 54, "page_end": 56 },
+            { "subtopic_index": "2.6.2", "subtopic_name": "Shapes of Atomic Orbitals", "page_start": 57, "page_end": 58 },
+            { "subtopic_index": "2.6.3", "subtopic_name": "Energies of Orbitals", "page_start": 59, "page_end": 60 },
+            { "subtopic_index": "2.6.4", "subtopic_name": "Filling of Orbitals in Atom", "page_start": 61, "page_end": 62 },
+            { "subtopic_index": "2.6.5", "subtopic_name": "Electronic Configuration of Atoms", "page_start": 63, "page_end": 63 },
+            { "subtopic_index": "2.6.6", "subtopic_name": "Stability of Completely Filled and Half-Filled Subshells", "page_start": 64, "page_end": 68 }
+          ]
+        }
+      ]
+    },
+    {
+      "chapter_index": 3,
+      "chapter_name": "Classification of Elements and Periodicity in Properties",
+      "page_start": 74,
+      "page_end": 99,
+      "topics": [
+        {
+          "topic_index": "3.1",
+          "topic_name": "Why do we Need to Classify Elements?",
+          "page_start": 74,
+          "page_end": 74,
+          "subtopics": [
+            { "subtopic_index": "3.1.0", "subtopic_name": "Introduction", "page_start": 74, "page_end": 74 }
+          ]
+        },
+        {
+          "topic_index": "3.2",
+          "topic_name": "Genesis of Periodic Classification",
+          "page_start": 75,
+          "page_end": 77,
+          "subtopics": [
+            { "subtopic_index": "3.2.0", "subtopic_name": "Introduction", "page_start": 75, "page_end": 77 }
+          ]
+        },
+        {
+          "topic_index": "3.3",
+          "topic_name": "Modern Periodic Law and the Present Form of the Periodic Table",
+          "page_start": 78,
+          "page_end": 78,
+          "subtopics": [
+            { "subtopic_index": "3.3.0", "subtopic_name": "Introduction", "page_start": 78, "page_end": 78 }
+          ]
+        },
+        {
+          "topic_index": "3.4",
+          "topic_name": "Nomenclature of Elements with Atomic Numbers > 100",
+          "page_start": 78,
+          "page_end": 80,
+          "subtopics": [
+            { "subtopic_index": "3.4.0", "subtopic_name": "Introduction", "page_start": 78, "page_end": 80 }
+          ]
+        },
+        {
+          "topic_index": "3.5",
+          "topic_name": "Electronic Configurations of Elements and the Periodic Table",
+          "page_start": 81,
+          "page_end": 81,
+          "subtopics": [
+            { "subtopic_index": "3.5.0", "subtopic_name": "Introduction", "page_start": 81, "page_end": 81 }
+          ]
+        },
+        {
+          "topic_index": "3.6",
+          "topic_name": "Electronic Configurations and Types of Elements: s-, p-, d-, f- Blocks",
+          "page_start": 82,
+          "page_end": 85,
+          "subtopics": [
+            { "subtopic_index": "3.6.0", "subtopic_name": "Introduction", "page_start": 82, "page_end": 82 },
+            { "subtopic_index": "3.6.1", "subtopic_name": "The s-Block Elements", "page_start": 82, "page_end": 83 },
+            { "subtopic_index": "3.6.2", "subtopic_name": "The p-Block Elements", "page_start": 84, "page_end": 84 },
+            { "subtopic_index": "3.6.3", "subtopic_name": "The d-Block Elements (Transition Elements)", "page_start": 84, "page_end": 84 },
+            { "subtopic_index": "3.6.4", "subtopic_name": "The f-Block Elements", "page_start": 84, "page_end": 84 },
+            { "subtopic_index": "3.6.5", "subtopic_name": "Metals, Non-metals and Metalloids", "page_start": 85, "page_end": 85 }
+          ]
+        },
+        {
+          "topic_index": "3.7",
+          "topic_name": "Periodic Trends in Properties of Elements",
+          "page_start": 85,
+          "page_end": 95,
+          "subtopics": [
+            { "subtopic_index": "3.7.0", "subtopic_name": "Introduction", "page_start": 85, "page_end": 85 },
+            { "subtopic_index": "3.7.1", "subtopic_name": "Trends in Physical Properties", "page_start": 85, "page_end": 91 },
+            { "subtopic_index": "3.7.2", "subtopic_name": "Periodic Trends in Chemical Properties", "page_start": 92, "page_end": 93 },
+            { "subtopic_index": "3.7.3", "subtopic_name": "Periodic Trends and Chemical Reactivity", "page_start": 94, "page_end": 95 }
+          ]
+        }
+      ]
+    },
+    {
+      "chapter_index": 4,
+      "chapter_name": "Chemical Bonding and Molecular Structure",
+      "page_start": 101,
+      "page_end": 135,
+      "topics": [
+        {
+          "topic_index": "4.1",
+          "topic_name": "Kössel-Lewis Approach to Chemical Bonding",
+          "page_start": 101,
+          "page_end": 105,
+          "subtopics": [
+            { "subtopic_index": "4.1.0", "subtopic_name": "Introduction", "page_start": 101, "page_end": 101 },
+            { "subtopic_index": "4.1.1", "subtopic_name": "Octet Rule", "page_start": 102, "page_end": 102 },
+            { "subtopic_index": "4.1.2", "subtopic_name": "Covalent Bond", "page_start": 102, "page_end": 102 },
+            { "subtopic_index": "4.1.3", "subtopic_name": "Lewis Representation of Simple Molecules (the Lewis Structures)", "page_start": 103, "page_end": 103 },
+            { "subtopic_index": "4.1.4", "subtopic_name": "Formal Charge", "page_start": 104, "page_end": 104 },
+            { "subtopic_index": "4.1.5", "subtopic_name": "Limitations of the Octet Rule", "page_start": 105, "page_end": 105 }
+          ]
+        },
+        {
+          "topic_index": "4.2",
+          "topic_name": "Ionic or Electrovalent Bond",
+          "page_start": 106,
+          "page_end": 107,
+          "subtopics": [
+            { "subtopic_index": "4.2.0", "subtopic_name": "Introduction", "page_start": 106, "page_end": 106 },
+            { "subtopic_index": "4.2.1", "subtopic_name": "Lattice Enthalpy", "page_start": 107, "page_end": 107 }
+          ]
+        },
+        {
+          "topic_index": "4.3",
+          "topic_name": "Bond Parameters",
+          "page_start": 107,
+          "page_end": 111,
+          "subtopics": [
+            { "subtopic_index": "4.3.0", "subtopic_name": "Introduction", "page_start": 107, "page_end": 107 },
+            { "subtopic_index": "4.3.1", "subtopic_name": "Bond Length", "page_start": 107, "page_end": 107 },
+            { "subtopic_index": "4.3.2", "subtopic_name": "Bond Angle", "page_start": 108, "page_end": 108 },
+            { "subtopic_index": "4.3.3", "subtopic_name": "Bond Enthalpy", "page_start": 108, "page_end": 108 },
+            { "subtopic_index": "4.3.4", "subtopic_name": "Bond Order", "page_start": 109, "page_end": 109 },
+            { "subtopic_index": "4.3.5", "subtopic_name": "Resonance Structures", "page_start": 109, "page_end": 109 },
+            { "subtopic_index": "4.3.6", "subtopic_name": "Polarity of Bonds", "page_start": 110, "page_end": 111 }
+          ]
+        },
+        {
+          "topic_index": "4.4",
+          "topic_name": "The Valence Shell Electron Pair Repulsion (VSEPR) Theory",
+          "page_start": 112,
+          "page_end": 116,
+          "subtopics": [
+            { "subtopic_index": "4.4.0", "subtopic_name": "Introduction", "page_start": 112, "page_end": 116 }
+          ]
+        },
+        {
+          "topic_index": "4.5",
+          "topic_name": "Valence Bond Theory",
+          "page_start": 117,
+          "page_end": 120,
+          "subtopics": [
+            { "subtopic_index": "4.5.0", "subtopic_name": "Introduction", "page_start": 117, "page_end": 117 },
+            { "subtopic_index": "4.5.1", "subtopic_name": "Orbital Overlap Concept", "page_start": 118, "page_end": 118 },
+            { "subtopic_index": "4.5.2", "subtopic_name": "Directional Properties of Bonds", "page_start": 119, "page_end": 119 },
+            { "subtopic_index": "4.5.3", "subtopic_name": "Overlapping of Atomic Orbitals", "page_start": 119, "page_end": 119 },
+            { "subtopic_index": "4.5.4", "subtopic_name": "Types of Overlapping and Nature of Covalent Bonds", "page_start": 120, "page_end": 120 },
+            { "subtopic_index": "4.5.5", "subtopic_name": "Strength of Sigma and Pi Bonds", "page_start": 120, "page_end": 120 }
+          ]
+        },
+        {
+          "topic_index": "4.6",
+          "topic_name": "Hybridisation",
+          "page_start": 120,
+          "page_end": 124,
+          "subtopics": [
+            { "subtopic_index": "4.6.0", "subtopic_name": "Introduction", "page_start": 120, "page_end": 120 },
+            { "subtopic_index": "4.6.1", "subtopic_name": "Types of Hybridisation", "page_start": 121, "page_end": 122 },
+            { "subtopic_index": "4.6.2", "subtopic_name": "Other Examples of sp3, sp2 and sp Hybridisation", "page_start": 123, "page_end": 123 },
+            { "subtopic_index": "4.6.3", "subtopic_name": "Hybridisation of Elements Involving d Orbitals", "page_start": 124, "page_end": 124 }
+          ]
+        },
+        {
+          "topic_index": "4.7",
+          "topic_name": "Molecular Orbital Theory",
+          "page_start": 125,
+          "page_end": 130,
+          "subtopics": [
+            { "subtopic_index": "4.7.0", "subtopic_name": "Introduction", "page_start": 125, "page_end": 125 },
+            { "subtopic_index": "4.7.1", "subtopic_name": "Formation of Molecular Orbitals: Linear Combination of Atomic Orbitals (LCAO)", "page_start": 126, "page_end": 126 },
+            { "subtopic_index": "4.7.2", "subtopic_name": "Conditions for the Combination of Atomic Orbitals", "page_start": 127, "page_end": 127 },
+            { "subtopic_index": "4.7.3", "subtopic_name": "Types of Molecular Orbitals", "page_start": 127, "page_end": 127 },
+            { "subtopic_index": "4.7.4", "subtopic_name": "Energy Level Diagram for Molecular Orbitals", "page_start": 127, "page_end": 128 },
+            { "subtopic_index": "4.7.5", "subtopic_name": "Electronic Configuration and Molecular Behaviour", "page_start": 129, "page_end": 130 }
+          ]
+        },
+        {
+          "topic_index": "4.8",
+          "topic_name": "Bonding in Some Homonuclear Diatomic Molecules",
+          "page_start": 129,
+          "page_end": 130,
+          "subtopics": [
+            { "subtopic_index": "4.8.0", "subtopic_name": "Introduction", "page_start": 129, "page_end": 130 }
+          ]
+        },
+        {
+          "topic_index": "4.9",
+          "topic_name": "Hydrogen Bonding",
+          "page_start": 131,
+          "page_end": 132,
+          "subtopics": [
+            { "subtopic_index": "4.9.0", "subtopic_name": "Introduction", "page_start": 131, "page_end": 131 },
+            { "subtopic_index": "4.9.1", "subtopic_name": "Cause of Formation of Hydrogen Bond", "page_start": 131, "page_end": 131 },
+            { "subtopic_index": "4.9.2", "subtopic_name": "Types of H-Bonds", "page_start": 132, "page_end": 132 }
+          ]
+        }
+      ]
+    },
+    {
+      "chapter_index": 5,
+      "chapter_name": "Thermodynamics",
+      "page_start": 137,
+      "page_end": 167,
+      "topics": [
+        {
+          "topic_index": "5.1",
+          "topic_name": "Thermodynamic Terms",
+          "page_start": 137,
+          "page_end": 139,
+          "subtopics": [
+            { "subtopic_index": "5.1.0", "subtopic_name": "Introduction", "page_start": 137, "page_end": 137 },
+            { "subtopic_index": "5.1.1", "subtopic_name": "The System and the Surroundings", "page_start": 137, "page_end": 137 },
+            { "subtopic_index": "5.1.2", "subtopic_name": "Types of the System", "page_start": 137, "page_end": 137 },
+            { "subtopic_index": "5.1.3", "subtopic_name": "The State of the System", "page_start": 138, "page_end": 138 },
+            { "subtopic_index": "5.1.4", "subtopic_name": "The Internal Energy as a State Function", "page_start": 138, "page_end": 139 }
+          ]
+        },
+        {
+          "topic_index": "5.2",
+          "topic_name": "Applications",
+          "page_start": 140,
+          "page_end": 144,
+          "subtopics": [
+            { "subtopic_index": "5.2.0", "subtopic_name": "Introduction", "page_start": 140, "page_end": 140 },
+            { "subtopic_index": "5.2.1", "subtopic_name": "Work", "page_start": 140, "page_end": 142 },
+            { "subtopic_index": "5.2.2", "subtopic_name": "Enthalpy, H", "page_start": 143, "page_end": 144 }
+          ]
+        },
+        {
+          "topic_index": "5.3",
+          "topic_name": "Measurement of ∆U and ∆H: Calorimetry",
+          "page_start": 145,
+          "page_end": 145,
+          "subtopics": [
+            { "subtopic_index": "5.3.0", "subtopic_name": "Introduction", "page_start": 145, "page_end": 145 }
+          ]
+        },
+        {
+          "topic_index": "5.4",
+          "topic_name": "Enthalpy Change, ∆H of a Reaction – Reaction Enthalpy",
+          "page_start": 146,
+          "page_end": 151,
+          "subtopics": [
+            { "subtopic_index": "5.4.0", "subtopic_name": "Introduction", "page_start": 146, "page_end": 151 }
+          ]
+        },
+        {
+          "topic_index": "5.5",
+          "topic_name": "Enthalpies for Different Types of Reactions",
+          "page_start": 152,
+          "page_end": 156,
+          "subtopics": [
+            { "subtopic_index": "5.5.0", "subtopic_name": "Introduction", "page_start": 152, "page_end": 156 }
+          ]
+        },
+        {
+          "topic_index": "5.6",
+          "topic_name": "Spontaneity",
+          "page_start": 157,
+          "page_end": 161,
+          "subtopics": [
+            { "subtopic_index": "5.6.0", "subtopic_name": "Introduction", "page_start": 157, "page_end": 161 }
+          ]
+        },
+        {
+          "topic_index": "5.7",
+          "topic_name": "Gibbs Energy Change and Equilibrium",
+          "page_start": 162,
+          "page_end": 167,
+          "subtopics": [
+            { "subtopic_index": "5.7.0", "subtopic_name": "Introduction", "page_start": 162, "page_end": 167 }
+          ]
+        }
+      ]
+    },
+    {
+      "chapter_index": 6,
+      "chapter_name": "Equilibrium",
+      "page_start": 169,
+      "page_end": 214,
+      "topics": [
+        {
+          "topic_index": "6.1",
+          "topic_name": "Equilibrium in Physical Processes",
+          "page_start": 169,
+          "page_end": 176,
+          "subtopics": [
+            { "subtopic_index": "6.1.0", "subtopic_name": "Introduction", "page_start": 169, "page_end": 169 },
+            { "subtopic_index": "6.1.1", "subtopic_name": "Solid-Liquid Equilibrium", "page_start": 169, "page_end": 169 },
+            { "subtopic_index": "6.1.2", "subtopic_name": "Liquid-Vapour Equilibrium", "page_start": 169, "page_end": 169 },
+            { "subtopic_index": "6.1.3", "subtopic_name": "Solid-Vapour Equilibrium", "page_start": 170, "page_end": 170 },
+            { "subtopic_index": "6.1.4", "subtopic_name": "Equilibrium Involving Dissolution of Solid or Gases in Liquids", "page_start": 171, "page_end": 171 },
+            { "subtopic_index": "6.1.5", "subtopic_name": "General Characteristics of Equilibria Involving Physical Processes", "page_start": 172, "page_end": 176 }
+          ]
+        },
+        {
+          "topic_index": "6.2",
+          "topic_name": "Equilibrium in Chemical Processes – Dynamic Equilibrium",
+          "page_start": 172,
+          "page_end": 173,
+          "subtopics": [
+            { "subtopic_index": "6.2.0", "subtopic_name": "Introduction", "page_start": 172, "page_end": 173 }
+          ]
+        },
+        {
+          "topic_index": "6.3",
+          "topic_name": "Law of Chemical Equilibrium and Equilibrium Constant",
+          "page_start": 174,
+          "page_end": 176,
+          "subtopics": [
+            { "subtopic_index": "6.3.0", "subtopic_name": "Introduction", "page_start": 174, "page_end": 176 }
+          ]
+        },
+        {
+          "topic_index": "6.4",
+          "topic_name": "Homogeneous Equilibria",
+          "page_start": 177,
+          "page_end": 178,
+          "subtopics": [
+            { "subtopic_index": "6.4.0", "subtopic_name": "Introduction", "page_start": 177, "page_end": 177 },
+            { "subtopic_index": "6.4.1", "subtopic_name": "Equilibrium Constant in Gaseous Systems", "page_start": 177, "page_end": 178 }
+          ]
+        },
+        {
+          "topic_index": "6.5",
+          "topic_name": "Heterogeneous Equilibria",
+          "page_start": 179,
+          "page_end": 180,
+          "subtopics": [
+            { "subtopic_index": "6.5.0", "subtopic_name": "Introduction", "page_start": 179, "page_end": 180 }
+          ]
+        },
+        {
+          "topic_index": "6.6",
+          "topic_name": "Applications of Equilibrium Constants",
+          "page_start": 181,
+          "page_end": 183,
+          "subtopics": [
+            { "subtopic_index": "6.6.0", "subtopic_name": "Introduction", "page_start": 181, "page_end": 181 },
+            { "subtopic_index": "6.6.1", "subtopic_name": "Magnitude of Equilibrium Constant", "page_start": 181, "page_end": 181 },
+            { "subtopic_index": "6.6.2", "subtopic_name": "Predicting the Direction of the Reaction", "page_start": 182, "page_end": 182 },
+            { "subtopic_index": "6.6.3", "subtopic_name": "Calculating Equilibrium Concentrations", "page_start": 183, "page_end": 183 }
+          ]
+        },
+        {
+          "topic_index": "6.7",
+          "topic_name": "Relationship between Equilibrium Constant K, Reaction Quotient Q and Gibbs Energy G",
+          "page_start": 184,
+          "page_end": 184,
+          "subtopics": [
+            { "subtopic_index": "6.7.0", "subtopic_name": "Introduction", "page_start": 184, "page_end": 184 }
+          ]
+        },
+        {
+          "topic_index": "6.8",
+          "topic_name": "Factors Affecting Equilibria",
+          "page_start": 184,
+          "page_end": 189,
+          "subtopics": [
+            { "subtopic_index": "6.8.0", "subtopic_name": "Introduction", "page_start": 184, "page_end": 184 },
+            { "subtopic_index": "6.8.1", "subtopic_name": "Effect of Concentration Change", "page_start": 185, "page_end": 185 },
+            { "subtopic_index": "6.8.2", "subtopic_name": "Effect of Pressure Change", "page_start": 186, "page_end": 186 },
+            { "subtopic_index": "6.8.3", "subtopic_name": "Effect of Inert Gas Addition", "page_start": 187, "page_end": 187 },
+            { "subtopic_index": "6.8.4", "subtopic_name": "Effect of Temperature Change", "page_start": 187, "page_end": 187 },
+            { "subtopic_index": "6.8.5", "subtopic_name": "Effect of a Catalyst", "page_start": 188, "page_end": 189 }
+          ]
+        },
+        {
+          "topic_index": "6.9",
+          "topic_name": "Ionic Equilibrium in Solution",
+          "page_start": 188,
+          "page_end": 188,
+          "subtopics": [
+            { "subtopic_index": "6.9.0", "subtopic_name": "Introduction", "page_start": 188, "page_end": 188 }
+          ]
+        },
+        {
+          "topic_index": "6.10",
+          "topic_name": "Acids, Bases and Salts",
+          "page_start": 189,
+          "page_end": 192,
+          "subtopics": [
+            { "subtopic_index": "6.10.0", "subtopic_name": "Introduction", "page_start": 189, "page_end": 189 },
+            { "subtopic_index": "6.10.1", "subtopic_name": "Arrhenius Concept of Acids and Bases", "page_start": 190, "page_end": 190 },
+            { "subtopic_index": "6.10.2", "subtopic_name": "The Brönsted-Lowry Acids and Bases", "page_start": 190, "page_end": 191 },
+            { "subtopic_index": "6.10.3", "subtopic_name": "Lewis Acids and Bases", "page_start": 192, "page_end": 192 }
+          ]
+        },
+        {
+          "topic_index": "6.11",
+          "topic_name": "Ionization of Acids and Bases",
+          "page_start": 192,
+          "page_end": 201,
+          "subtopics": [
+            { "subtopic_index": "6.11.0", "subtopic_name": "Introduction", "page_start": 192, "page_end": 192 },
+            { "subtopic_index": "6.11.1", "subtopic_name": "The Ionization Constant of Water", "page_start": 193, "page_end": 193 },
+            { "subtopic_index": "6.11.2", "subtopic_name": "The pH Scale", "page_start": 193, "page_end": 194 },
+            { "subtopic_index": "6.11.3", "subtopic_name": "Ionization Constants of Weak Acids", "page_start": 195, "page_end": 196 },
+            { "subtopic_index": "6.11.4", "subtopic_name": "Ionization of Weak Bases", "page_start": 197, "page_end": 197 },
+            { "subtopic_index": "6.11.5", "subtopic_name": "Relation between Ka and Kb", "page_start": 198, "page_end": 198 },
+            { "subtopic_index": "6.11.6", "subtopic_name": "Di- and Polybasic Acids and Di- and Polyacidic Bases", "page_start": 199, "page_end": 199 },
+            { "subtopic_index": "6.11.7", "subtopic_name": "Factors Affecting Acid Strength", "page_start": 200, "page_end": 200 },
+            { "subtopic_index": "6.11.8", "subtopic_name": "Common Ion Effect in the Ionization of Acids and Bases", "page_start": 200, "page_end": 200 },
+            { "subtopic_index": "6.11.9", "subtopic_name": "Hydrolysis of Salts and the pH of their Solutions", "page_start": 201, "page_end": 201 }
+          ]
+        },
+        {
+          "topic_index": "6.12",
+          "topic_name": "Buffer Solutions",
+          "page_start": 202,
+          "page_end": 203,
+          "subtopics": [
+            { "subtopic_index": "6.12.0", "subtopic_name": "Introduction", "page_start": 202, "page_end": 202 },
+            { "subtopic_index": "6.12.1", "subtopic_name": "Designing Buffer Solution", "page_start": 203, "page_end": 203 }
+          ]
+        },
+        {
+          "topic_index": "6.13",
+          "topic_name": "Solubility Equilibria of Sparingly Soluble Salts",
+          "page_start": 204,
+          "page_end": 207,
+          "subtopics": [
+            { "subtopic_index": "6.13.0", "subtopic_name": "Introduction", "page_start": 204, "page_end": 204 },
+            { "subtopic_index": "6.13.1", "subtopic_name": "Solubility Product Constant", "page_start": 204, "page_end": 205 },
+            { "subtopic_index": "6.13.2", "subtopic_name": "Common Ion Effect on Solubility of Ionic Salts", "page_start": 206, "page_end": 207 }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+export const GRAPH_PLACEHOLDER_PROMPT = `INTERACTIVE GRAPH RULES:
+- When a graph would materially improve understanding, insert a graph placeholder exactly where the graph belongs in your answer.
+- Placeholder format: [[graph:short-kebab-id]]
+- Put each placeholder on its own line, directly below the sentence or heading it belongs to.
+- Use at most 3 graph placeholders per answer. IDs must be unique, lowercase, and descriptive, e.g. [[graph:quadratic-parabola]], [[graph:speed-time]], [[graph:ohms-law]].
+- USE graphs for:
+  - Function curves being taught (quadratics, trig, exponential, logarithmic, linear, rational)
+  - Coordinate geometry constructions — YOU MUST draw a graph for any question about: circles and lines (tangent / secant / no intersection), chords, radii, tangents, triangles inscribed in circles, polygons. Use type "line" with dense polyline series.
+  - Physics/Science motion graphs (distance-time, velocity-time, acceleration-time)
+  - Science relationships (Ohm's Law, Hooke's Law, cooling curves, wave motion)
+  - Economic curves (supply, demand, production possibility frontier)
+  - Statistical distributions, histograms, comparisons (bar, pie)
+  - Any graph where an interactive slider letting students change a parameter (slope, amplitude, exponent) would deepen understanding
+- MANDATORY GRAPH TRIGGERS — always insert a placeholder when the question is about:
+  - How a line interacts with a circle (tangent, secant, no intersection) → draw all three cases as separate series on ONE graph
+  - Any function with a named parameter (e.g. y = x^n, y = sin(ax), y = mx + c) → add a slider for that parameter
+  - Any "draw the graph" or "sketch the curve" request
+  - Any physics motion / wave / force relationship
+- DO NOT use graphs for: flowcharts, maps, pure tables, circuit diagrams, decorative visuals, or when a bullet list is clearer.
+- Do NOT include JSON, SVG, Mermaid, code, or chart data in the answer text — only insert the placeholder. The app generates the interactive graph automatically.
+- The graph will show the correct mathematical curve including asymptotes, roots, and turning points — trust the renderer.`;

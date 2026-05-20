@@ -1,0 +1,15 @@
+{                                           
+  "hosting": {                              
+    "public": "public",                     
+    "ignore": ["firebase.json", "**/.*"],   
+    "rewrites": [                        
+      {          
+        "source": "**",
+        "run": {       
+          "serviceId": "lerno-web",         
+          "region": "asia-south1"  
+        }                                   
+      }                                     
+    ]  
+  }  
+}  

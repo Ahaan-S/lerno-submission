@@ -1,0 +1,496 @@
+{
+  "grade": "11",
+  "subject": "Mathematics",
+  "language": "english",
+  "year": "2025",
+  "chapters": [
+    {
+      "chapter_index": 1,
+      "chapter_name": "Sets",
+      "page_start": 1,
+      "page_end": 23,
+      "topics": [
+        {
+          "topic_index": "1.1",
+          "topic_name": "Introduction",
+          "page_start": 1,
+          "page_end": 1,
+          "subtopics": [
+            { "subtopic_index": "1.1.0", "subtopic_name": "Introduction", "page_start": 1, "page_end": 1 }
+          ]
+        },
+        {
+          "topic_index": "1.2",
+          "topic_name": "Sets and their Representations",
+          "page_start": 1,
+          "page_end": 4,
+          "subtopics": [
+            { "subtopic_index": "1.2.0", "subtopic_name": "Introduction", "page_start": 1, "page_end": 1 }
+          ]
+        },
+        {
+          "topic_index": "1.3",
+          "topic_name": "The Empty Set",
+          "page_start": 5,
+          "page_end": 5,
+          "subtopics": [
+            { "subtopic_index": "1.3.0", "subtopic_name": "Introduction", "page_start": 5, "page_end": 5 }
+          ]
+        },
+        {
+          "topic_index": "1.4",
+          "topic_name": "Finite and Infinite Sets",
+          "page_start": 6,
+          "page_end": 6,
+          "subtopics": [
+            { "subtopic_index": "1.4.0", "subtopic_name": "Introduction", "page_start": 6, "page_end": 6 }
+          ]
+        },
+        {
+          "topic_index": "1.5",
+          "topic_name": "Equal Sets",
+          "page_start": 7,
+          "page_end": 8,
+          "subtopics": [
+            { "subtopic_index": "1.5.0", "subtopic_name": "Introduction", "page_start": 7, "page_end": 7 }
+          ]
+        },
+        {
+          "topic_index": "1.6",
+          "topic_name": "Subsets",
+          "page_start": 9,
+          "page_end": 11,
+          "subtopics": [
+            { "subtopic_index": "1.6.0", "subtopic_name": "Introduction", "page_start": 9, "page_end": 9 },
+            { "subtopic_index": "1.6.1", "subtopic_name": "Subsets of set of real numbers", "page_start": 10, "page_end": 10 },
+            { "subtopic_index": "1.6.2", "subtopic_name": "Intervals as subsets of R", "page_start": 11, "page_end": 11 }
+          ]
+        },
+        {
+          "topic_index": "1.7",
+          "topic_name": "Universal Set",
+          "page_start": 12,
+          "page_end": 12,
+          "subtopics": [
+            { "subtopic_index": "1.7.0", "subtopic_name": "Introduction", "page_start": 12, "page_end": 12 }
+          ]
+        },
+        {
+          "topic_index": "1.8",
+          "topic_name": "Venn Diagrams",
+          "page_start": 13,
+          "page_end": 13,
+          "subtopics": [
+            { "subtopic_index": "1.8.0", "subtopic_name": "Introduction", "page_start": 13, "page_end": 13 }
+          ]
+        },
+        {
+          "topic_index": "1.9",
+          "topic_name": "Operations on Sets",
+          "page_start": 13,
+          "page_end": 17,
+          "subtopics": [
+            { "subtopic_index": "1.9.0", "subtopic_name": "Introduction", "page_start": 13, "page_end": 13 },
+            { "subtopic_index": "1.9.1", "subtopic_name": "Union of sets", "page_start": 14, "page_end": 14 },
+            { "subtopic_index": "1.9.2", "subtopic_name": "Intersection of sets", "page_start": 15, "page_end": 15 },
+            { "subtopic_index": "1.9.3", "subtopic_name": "Difference of sets", "page_start": 16, "page_end": 17 }
+          ]
+        },
+        {
+          "topic_index": "1.10",
+          "topic_name": "Complement of a Set",
+          "page_start": 18,
+          "page_end": 23,
+          "subtopics": [
+            { "subtopic_index": "1.10.0", "subtopic_name": "Introduction", "page_start": 18, "page_end": 18 }
+          ]
+        }
+      ]
+    },
+    {
+      "chapter_index": 2,
+      "chapter_name": "Relations and Functions",
+      "page_start": 24,
+      "page_end": 42,
+      "topics": [
+        {
+          "topic_index": "2.1",
+          "topic_name": "Introduction",
+          "page_start": 24,
+          "page_end": 24,
+          "subtopics": [
+            { "subtopic_index": "2.1.0", "subtopic_name": "Introduction", "page_start": 24, "page_end": 24 }
+          ]
+        },
+        {
+          "topic_index": "2.2",
+          "topic_name": "Cartesian Product of Sets",
+          "page_start": 24,
+          "page_end": 27,
+          "subtopics": [
+            { "subtopic_index": "2.2.0", "subtopic_name": "Introduction", "page_start": 24, "page_end": 24 }
+          ]
+        },
+        {
+          "topic_index": "2.3",
+          "topic_name": "Relations",
+          "page_start": 28,
+          "page_end": 29,
+          "subtopics": [
+            { "subtopic_index": "2.3.0", "subtopic_name": "Introduction", "page_start": 28, "page_end": 28 }
+          ]
+        },
+        {
+          "topic_index": "2.4",
+          "topic_name": "Functions",
+          "page_start": 30,
+          "page_end": 42,
+          "subtopics": [
+            { "subtopic_index": "2.4.0", "subtopic_name": "Introduction", "page_start": 30, "page_end": 31 },
+            { "subtopic_index": "2.4.1", "subtopic_name": "Some functions and their graphs", "page_start": 32, "page_end": 35 },
+            { "subtopic_index": "2.4.2", "subtopic_name": "Algebra of real functions", "page_start": 36, "page_end": 42 }
+          ]
+        }
+      ]
+    },
+    {
+      "chapter_index": 3,
+      "chapter_name": "Trigonometric Functions",
+      "page_start": 43,
+      "page_end": 75,
+      "topics": [
+        {
+          "topic_index": "3.1",
+          "topic_name": "Introduction",
+          "page_start": 43,
+          "page_end": 43,
+          "subtopics": [
+            { "subtopic_index": "3.1.0", "subtopic_name": "Introduction", "page_start": 43, "page_end": 43 }
+          ]
+        },
+        {
+          "topic_index": "3.2",
+          "topic_name": "Angles",
+          "page_start": 43,
+          "page_end": 48,
+          "subtopics": [
+            { "subtopic_index": "3.2.0", "subtopic_name": "Introduction", "page_start": 43, "page_end": 43 },
+            { "subtopic_index": "3.2.1", "subtopic_name": "Degree measure", "page_start": 44, "page_end": 44 },
+            { "subtopic_index": "3.2.2", "subtopic_name": "Radian measure", "page_start": 45, "page_end": 45 },
+            { "subtopic_index": "3.2.3", "subtopic_name": "Relation between radian and real numbers", "page_start": 46, "page_end": 46 },
+            { "subtopic_index": "3.2.4", "subtopic_name": "Relation between degree and radian", "page_start": 46, "page_end": 48 }
+          ]
+        },
+        {
+          "topic_index": "3.3",
+          "topic_name": "Trigonometric Functions",
+          "page_start": 49,
+          "page_end": 56,
+          "subtopics": [
+            { "subtopic_index": "3.3.0", "subtopic_name": "Introduction", "page_start": 49, "page_end": 50 },
+            { "subtopic_index": "3.3.1", "subtopic_name": "Sign of trigonometric functions", "page_start": 51, "page_end": 51 },
+            { "subtopic_index": "3.3.2", "subtopic_name": "Domain and range of trigonometric functions", "page_start": 52, "page_end": 56 }
+          ]
+        },
+        {
+          "topic_index": "3.4",
+          "topic_name": "Trigonometric Functions of Sum and Difference of Two Angles",
+          "page_start": 57,
+          "page_end": 75,
+          "subtopics": [
+            { "subtopic_index": "3.4.0", "subtopic_name": "Introduction", "page_start": 57, "page_end": 57 }
+          ]
+        }
+      ]
+    },
+    {
+      "chapter_index": 4,
+      "chapter_name": "Complex Numbers and Quadratic Equations",
+      "page_start": 76,
+      "page_end": 88,
+      "topics": [
+        {
+          "topic_index": "4.1",
+          "topic_name": "Introduction",
+          "page_start": 76,
+          "page_end": 76,
+          "subtopics": [
+            { "subtopic_index": "4.1.0", "subtopic_name": "Introduction", "page_start": 76, "page_end": 76 }
+          ]
+        },
+        {
+          "topic_index": "4.2",
+          "topic_name": "Complex Numbers",
+          "page_start": 76,
+          "page_end": 76,
+          "subtopics": [
+            { "subtopic_index": "4.2.0", "subtopic_name": "Introduction", "page_start": 76, "page_end": 76 }
+          ]
+        },
+        {
+          "topic_index": "4.3",
+          "topic_name": "Algebra of Complex Numbers",
+          "page_start": 77,
+          "page_end": 80,
+          "subtopics": [
+            { "subtopic_index": "4.3.0", "subtopic_name": "Introduction", "page_start": 77, "page_end": 77 },
+            { "subtopic_index": "4.3.1", "subtopic_name": "Addition of two complex numbers", "page_start": 77, "page_end": 77 },
+            { "subtopic_index": "4.3.2", "subtopic_name": "Difference of two complex numbers", "page_start": 77, "page_end": 77 },
+            { "subtopic_index": "4.3.3", "subtopic_name": "Multiplication of two complex numbers", "page_start": 78, "page_end": 78 },
+            { "subtopic_index": "4.3.4", "subtopic_name": "Division of two complex numbers", "page_start": 78, "page_end": 78 },
+            { "subtopic_index": "4.3.5", "subtopic_name": "Power of i", "page_start": 79, "page_end": 79 },
+            { "subtopic_index": "4.3.6", "subtopic_name": "The square roots of a negative real number", "page_start": 79, "page_end": 79 },
+            { "subtopic_index": "4.3.7", "subtopic_name": "Identities", "page_start": 80, "page_end": 80 }
+          ]
+        },
+        {
+          "topic_index": "4.4",
+          "topic_name": "The Modulus and the Conjugate of a Complex Number",
+          "page_start": 81,
+          "page_end": 82,
+          "subtopics": [
+            { "subtopic_index": "4.4.0", "subtopic_name": "Introduction", "page_start": 81, "page_end": 81 }
+          ]
+        },
+        {
+          "topic_index": "4.5",
+          "topic_name": "Argand Plane and Polar Representation",
+          "page_start": 83,
+          "page_end": 88,
+          "subtopics": [
+            { "subtopic_index": "4.5.0", "subtopic_name": "Introduction", "page_start": 83, "page_end": 83 }
+          ]
+        }
+      ]
+    },
+    {
+      "chapter_index": 5,
+      "chapter_name": "Linear Inequalities",
+      "page_start": 89,
+      "page_end": 99,
+      "topics": [
+        {
+          "topic_index": "5.1",
+          "topic_name": "Introduction",
+          "page_start": 89,
+          "page_end": 89,
+          "subtopics": [
+            { "subtopic_index": "5.1.0", "subtopic_name": "Introduction", "page_start": 89, "page_end": 89 }
+          ]
+        },
+        {
+          "topic_index": "5.2",
+          "topic_name": "Inequalities",
+          "page_start": 89,
+          "page_end": 90,
+          "subtopics": [
+            { "subtopic_index": "5.2.0", "subtopic_name": "Introduction", "page_start": 89, "page_end": 89 }
+          ]
+        },
+        {
+          "topic_index": "5.3",
+          "topic_name": "Algebraic Solutions of Linear Inequalities in One Variable and their Graphical Representation",
+          "page_start": 91,
+          "page_end": 99,
+          "subtopics": [
+            { "subtopic_index": "5.3.0", "subtopic_name": "Introduction", "page_start": 91, "page_end": 91 }
+          ]
+        }
+      ]
+    },
+    {
+      "chapter_index": 6,
+      "chapter_name": "Permutations and Combinations",
+      "page_start": 100,
+      "page_end": 125,
+      "topics": [
+        {
+          "topic_index": "6.1",
+          "topic_name": "Introduction",
+          "page_start": 100,
+          "page_end": 100,
+          "subtopics": [
+            { "subtopic_index": "6.1.0", "subtopic_name": "Introduction", "page_start": 100, "page_end": 100 }
+          ]
+        },
+        {
+          "topic_index": "6.2",
+          "topic_name": "Fundamental Principle of Counting",
+          "page_start": 100,
+          "page_end": 103,
+          "subtopics": [
+            { "subtopic_index": "6.2.0", "subtopic_name": "Introduction", "page_start": 100, "page_end": 100 }
+          ]
+        },
+        {
+          "topic_index": "6.3",
+          "topic_name": "Permutations",
+          "page_start": 104,
+          "page_end": 113,
+          "subtopics": [
+            { "subtopic_index": "6.3.0", "subtopic_name": "Introduction", "page_start": 104, "page_end": 104 },
+            { "subtopic_index": "6.3.1", "subtopic_name": "Permutations when all the objects are distinct", "page_start": 105, "page_end": 105 },
+            { "subtopic_index": "6.3.2", "subtopic_name": "Factorial notation", "page_start": 105, "page_end": 106 },
+            { "subtopic_index": "6.3.3", "subtopic_name": "Derivation of the formula for nPr", "page_start": 107, "page_end": 107 },
+            { "subtopic_index": "6.3.4", "subtopic_name": "Permutations when all the objects are not distinct objects", "page_start": 108, "page_end": 113 }
+          ]
+        },
+        {
+          "topic_index": "6.4",
+          "topic_name": "Combinations",
+          "page_start": 114,
+          "page_end": 125,
+          "subtopics": [
+            { "subtopic_index": "6.4.0", "subtopic_name": "Introduction", "page_start": 114, "page_end": 114 }
+          ]
+        }
+      ]
+    },
+    {
+      "chapter_index": 7,
+      "chapter_name": "Binomial Theorem",
+      "page_start": 126,
+      "page_end": 153,
+      "topics": [
+        {
+          "topic_index": "7.1",
+          "topic_name": "Introduction",
+          "page_start": 126,
+          "page_end": 126,
+          "subtopics": [
+            { "subtopic_index": "7.1.0", "subtopic_name": "Introduction", "page_start": 126, "page_end": 126 }
+          ]
+        },
+        {
+          "topic_index": "7.2",
+          "topic_name": "Binomial Theorem for Positive Integral Indices",
+          "page_start": 126,
+          "page_end": 146,
+          "subtopics": [
+            { "subtopic_index": "7.2.0", "subtopic_name": "Introduction", "page_start": 126, "page_end": 126 },
+            { "subtopic_index": "7.2.1", "subtopic_name": "Binomial theorem for any positive integer n", "page_start": 127, "page_end": 137 },
+            { "subtopic_index": "7.2.2", "subtopic_name": "Some special cases", "page_start": 138, "page_end": 146 }
+          ]
+        },
+        {
+          "topic_index": "7.3",
+          "topic_name": "General and Middle Terms",
+          "page_start": 147,
+          "page_end": 153,
+          "subtopics": [
+            { "subtopic_index": "7.3.0", "subtopic_name": "Introduction", "page_start": 147, "page_end": 147 }
+          ]
+        }
+      ]
+    },
+    {
+      "chapter_index": 8,
+      "chapter_name": "Sequences and Series",
+      "page_start": 154,
+      "page_end": 200,
+      "topics": [
+        {
+          "topic_index": "8.1",
+          "topic_name": "Introduction",
+          "page_start": 154,
+          "page_end": 154,
+          "subtopics": [
+            { "subtopic_index": "8.1.0", "subtopic_name": "Introduction", "page_start": 154, "page_end": 154 }
+          ]
+        },
+        {
+          "topic_index": "8.2",
+          "topic_name": "Sequences",
+          "page_start": 154,
+          "page_end": 161,
+          "subtopics": [
+            { "subtopic_index": "8.2.0", "subtopic_name": "Introduction", "page_start": 154, "page_end": 154 }
+          ]
+        },
+        {
+          "topic_index": "8.3",
+          "topic_name": "Series",
+          "page_start": 162,
+          "page_end": 165,
+          "subtopics": [
+            { "subtopic_index": "8.3.0", "subtopic_name": "Introduction", "page_start": 162, "page_end": 162 }
+          ]
+        },
+        {
+          "topic_index": "8.4",
+          "topic_name": "Geometric Progression (G.P.)",
+          "page_start": 166,
+          "page_end": 191,
+          "subtopics": [
+            { "subtopic_index": "8.4.0", "subtopic_name": "Introduction", "page_start": 166, "page_end": 166 },
+            { "subtopic_index": "8.4.1", "subtopic_name": "General term of a G.P.", "page_start": 167, "page_end": 175 },
+            { "subtopic_index": "8.4.2", "subtopic_name": "Sum to n terms of a G.P.", "page_start": 176, "page_end": 188 },
+            { "subtopic_index": "8.4.3", "subtopic_name": "Geometric Mean (G.M.)", "page_start": 189, "page_end": 191 }
+          ]
+        },
+        {
+          "topic_index": "8.5",
+          "topic_name": "Relationship between A.M. and G.M.",
+          "page_start": 192,
+          "page_end": 200,
+          "subtopics": [
+            { "subtopic_index": "8.5.0", "subtopic_name": "Introduction", "page_start": 192, "page_end": 192 }
+          ]
+        }
+      ]
+    },
+    {
+      "chapter_index": 9,
+      "chapter_name": "Straight Lines",
+      "page_start": 201,
+      "page_end": 252,
+      "topics": [
+        {
+          "topic_index": "9.1",
+          "topic_name": "Introduction",
+          "page_start": 201,
+          "page_end": 201,
+          "subtopics": [
+            { "subtopic_index": "9.1.0", "subtopic_name": "Introduction", "page_start": 201, "page_end": 201 }
+          ]
+        },
+        {
+          "topic_index": "9.2",
+          "topic_name": "Slope of a Line",
+          "page_start": 202,
+          "page_end": 212,
+          "subtopics": [
+            { "subtopic_index": "9.2.0", "subtopic_name": "Introduction", "page_start": 202, "page_end": 202 },
+            { "subtopic_index": "9.2.1", "subtopic_name": "Slope of a line when coordinates of any two points on the line are given", "page_start": 203, "page_end": 206 },
+            { "subtopic_index": "9.2.2", "subtopic_name": "Conditions for parallelism and perpendicularity of lines in terms of their slopes", "page_start": 207, "page_end": 209 },
+            { "subtopic_index": "9.2.3", "subtopic_name": "Angle between two lines", "page_start": 210, "page_end": 212 }
+          ]
+        },
+        {
+          "topic_index": "9.3",
+          "topic_name": "Various Forms of the Equation of a Line",
+          "page_start": 213,
+          "page_end": 232,
+          "subtopics": [
+            { "subtopic_index": "9.3.0", "subtopic_name": "Introduction", "page_start": 213, "page_end": 213 },
+            { "subtopic_index": "9.3.1", "subtopic_name": "Horizontal and vertical lines", "page_start": 214, "page_end": 214 },
+            { "subtopic_index": "9.3.2", "subtopic_name": "Point-slope form", "page_start": 215, "page_end": 218 },
+            { "subtopic_index": "9.3.3", "subtopic_name": "Two-point form", "page_start": 219, "page_end": 221 },
+            { "subtopic_index": "9.3.4", "subtopic_name": "Slope-intercept form", "page_start": 222, "page_end": 225 },
+            { "subtopic_index": "9.3.5", "subtopic_name": "Intercept-form", "page_start": 226, "page_end": 232 }
+          ]
+        },
+        {
+          "topic_index": "9.4",
+          "topic_name": "Distance of a Point From a Line",
+          "page_start": 233,
+          "page_end": 252,
+          "subtopics": [
+            { "subtopic_index": "9.4.0", "subtopic_name": "Introduction", "page_start": 233, "page_end": 233 },
+            { "subtopic_index": "9.4.1", "subtopic_name": "Distance between two parallel lines", "page_start": 242, "page_end": 252 }
+          ]
+        }
+      ]
+    }
+  ]
+}

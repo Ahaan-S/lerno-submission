@@ -1,0 +1,866 @@
+{
+  "grade": "11",
+  "subject": "Business Studies",
+  "language": "english",
+  "year": "2025",
+  "chapters": [
+    {
+      "chapter_index": 1,
+      "chapter_name": "Business, Trade and Commerce",
+      "page_start": 1,
+      "page_end": 25,
+      "topics": [
+        {
+          "topic_index": "1.1",
+          "topic_name": "Introduction",
+          "page_start": 3,
+          "page_end": 7,
+          "subtopics": [
+            {
+              "subtopic_index": "1.1.0",
+              "subtopic_name": "Introduction",
+              "page_start": 3,
+              "page_end": 3
+            },
+            {
+              "subtopic_index": "1.1.1",
+              "subtopic_name": "Role of Business in the Development of Economy",
+              "page_start": 4,
+              "page_end": 7
+            }
+          ]
+        },
+        {
+          "topic_index": "1.2",
+          "topic_name": "Concept of Business",
+          "page_start": 8,
+          "page_end": 11,
+          "subtopics": [
+            {
+              "subtopic_index": "1.2.0",
+              "subtopic_name": "Introduction",
+              "page_start": 8,
+              "page_end": 8
+            },
+            {
+              "subtopic_index": "1.2.1",
+              "subtopic_name": "Characteristics of Business Activities",
+              "page_start": 9,
+              "page_end": 10
+            },
+            {
+              "subtopic_index": "1.2.3",
+              "subtopic_name": "Comparison of Business, Profession and Employment",
+              "page_start": 11,
+              "page_end": 11
+            }
+          ]
+        },
+        {
+          "topic_index": "1.3",
+          "topic_name": "Classification of Business Activities",
+          "page_start": 12,
+          "page_end": 16,
+          "subtopics": [
+            {
+              "subtopic_index": "1.3.0",
+              "subtopic_name": "Introduction",
+              "page_start": 12,
+              "page_end": 12
+            },
+            {
+              "subtopic_index": "1.3.1",
+              "subtopic_name": "Industry",
+              "page_start": 12,
+              "page_end": 13
+            },
+            {
+              "subtopic_index": "1.3.2",
+              "subtopic_name": "Commerce",
+              "page_start": 14,
+              "page_end": 14
+            },
+            {
+              "subtopic_index": "1.3.3",
+              "subtopic_name": "Trade and Auxiliaries to Trade",
+              "page_start": 15,
+              "page_end": 16
+            }
+          ]
+        },
+        {
+          "topic_index": "1.4",
+          "topic_name": "Objectives of Business",
+          "page_start": 17,
+          "page_end": 17,
+          "subtopics": [
+            {
+              "subtopic_index": "1.4.0",
+              "subtopic_name": "Introduction",
+              "page_start": 17,
+              "page_end": 17
+            }
+          ]
+        },
+        {
+          "topic_index": "1.5",
+          "topic_name": "Classification of Objectives of Business",
+          "page_start": 18,
+          "page_end": 18,
+          "subtopics": [
+            {
+              "subtopic_index": "1.5.0",
+              "subtopic_name": "Introduction",
+              "page_start": 18,
+              "page_end": 18
+            }
+          ]
+        },
+        {
+          "topic_index": "1.6",
+          "topic_name": "Business Risk",
+          "page_start": 19,
+          "page_end": 20,
+          "subtopics": [
+            {
+              "subtopic_index": "1.6.0",
+              "subtopic_name": "Introduction",
+              "page_start": 19,
+              "page_end": 19
+            },
+            {
+              "subtopic_index": "1.6.1",
+              "subtopic_name": "Nature of Business Risks",
+              "page_start": 20,
+              "page_end": 20
+            },
+            {
+              "subtopic_index": "1.6.2",
+              "subtopic_name": "Cause of Business Risks",
+              "page_start": 20,
+              "page_end": 20
+            }
+          ]
+        },
+        {
+          "topic_index": "1.7",
+          "topic_name": "Starting a Business — Basic Factors",
+          "page_start": 21,
+          "page_end": 25,
+          "subtopics": [
+            {
+              "subtopic_index": "1.7.0",
+              "subtopic_name": "Introduction",
+              "page_start": 21,
+              "page_end": 25
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "chapter_index": 2,
+      "chapter_name": "Forms of Business Organisation",
+      "page_start": 26,
+      "page_end": 56,
+      "topics": [
+        {
+          "topic_index": "2.1",
+          "topic_name": "Introduction",
+          "page_start": 27,
+          "page_end": 27,
+          "subtopics": [
+            {
+              "subtopic_index": "2.1.0",
+              "subtopic_name": "Introduction",
+              "page_start": 27,
+              "page_end": 27
+            }
+          ]
+        },
+        {
+          "topic_index": "2.2",
+          "topic_name": "Sole Proprietorship",
+          "page_start": 27,
+          "page_end": 30,
+          "subtopics": [
+            {
+              "subtopic_index": "2.2.0",
+              "subtopic_name": "Introduction",
+              "page_start": 27,
+              "page_end": 30
+            }
+          ]
+        },
+        {
+          "topic_index": "2.3",
+          "topic_name": "Joint Hindu Family Business",
+          "page_start": 31,
+          "page_end": 31,
+          "subtopics": [
+            {
+              "subtopic_index": "2.3.0",
+              "subtopic_name": "Introduction",
+              "page_start": 31,
+              "page_end": 31
+            }
+          ]
+        },
+        {
+          "topic_index": "2.4",
+          "topic_name": "Partnership",
+          "page_start": 32,
+          "page_end": 39,
+          "subtopics": [
+            {
+              "subtopic_index": "2.4.0",
+              "subtopic_name": "Introduction",
+              "page_start": 32,
+              "page_end": 34
+            },
+            {
+              "subtopic_index": "2.4.1",
+              "subtopic_name": "Types of Partners",
+              "page_start": 35,
+              "page_end": 36
+            },
+            {
+              "subtopic_index": "2.4.2",
+              "subtopic_name": "Types of Partnerships",
+              "page_start": 37,
+              "page_end": 37
+            },
+            {
+              "subtopic_index": "2.4.3",
+              "subtopic_name": "Partnership Deed",
+              "page_start": 38,
+              "page_end": 38
+            },
+            {
+              "subtopic_index": "2.4.4",
+              "subtopic_name": "Registration",
+              "page_start": 39,
+              "page_end": 39
+            }
+          ]
+        },
+        {
+          "topic_index": "2.5",
+          "topic_name": "Cooperative Society",
+          "page_start": 40,
+          "page_end": 43,
+          "subtopics": [
+            {
+              "subtopic_index": "2.5.0",
+              "subtopic_name": "Introduction",
+              "page_start": 40,
+              "page_end": 41
+            },
+            {
+              "subtopic_index": "2.5.1",
+              "subtopic_name": "Types of Cooperative Societies",
+              "page_start": 42,
+              "page_end": 43
+            }
+          ]
+        },
+        {
+          "topic_index": "2.6",
+          "topic_name": "Joint Stock Company",
+          "page_start": 44,
+          "page_end": 48,
+          "subtopics": [
+            {
+              "subtopic_index": "2.6.0",
+              "subtopic_name": "Introduction",
+              "page_start": 44,
+              "page_end": 46
+            },
+            {
+              "subtopic_index": "2.6.1",
+              "subtopic_name": "Types of Companies",
+              "page_start": 47,
+              "page_end": 48
+            }
+          ]
+        },
+        {
+          "topic_index": "2.7",
+          "topic_name": "Choice of Form of Business Organisation",
+          "page_start": 49,
+          "page_end": 56,
+          "subtopics": [
+            {
+              "subtopic_index": "2.7.0",
+              "subtopic_name": "Introduction",
+              "page_start": 49,
+              "page_end": 56
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "chapter_index": 3,
+      "chapter_name": "Private, Public and Global Enterprises",
+      "page_start": 57,
+      "page_end": 78,
+      "topics": [
+        {
+          "topic_index": "3.1",
+          "topic_name": "Introduction",
+          "page_start": 58,
+          "page_end": 58,
+          "subtopics": [
+            {
+              "subtopic_index": "3.1.0",
+              "subtopic_name": "Introduction",
+              "page_start": 58,
+              "page_end": 58
+            }
+          ]
+        },
+        {
+          "topic_index": "3.2",
+          "topic_name": "Private Sector and Public Sector",
+          "page_start": 58,
+          "page_end": 58,
+          "subtopics": [
+            {
+              "subtopic_index": "3.2.0",
+              "subtopic_name": "Introduction",
+              "page_start": 58,
+              "page_end": 58
+            }
+          ]
+        },
+        {
+          "topic_index": "3.3",
+          "topic_name": "Forms of Organising Public Sector Enterprises",
+          "page_start": 59,
+          "page_end": 64,
+          "subtopics": [
+            {
+              "subtopic_index": "3.3.0",
+              "subtopic_name": "Introduction",
+              "page_start": 59,
+              "page_end": 59
+            },
+            {
+              "subtopic_index": "3.3.1",
+              "subtopic_name": "Departmental Undertakings",
+              "page_start": 60,
+              "page_end": 61
+            },
+            {
+              "subtopic_index": "3.3.2",
+              "subtopic_name": "Statutory Corporations",
+              "page_start": 62,
+              "page_end": 62
+            },
+            {
+              "subtopic_index": "3.3.3",
+              "subtopic_name": "Government Company",
+              "page_start": 63,
+              "page_end": 64
+            }
+          ]
+        },
+        {
+          "topic_index": "3.4",
+          "topic_name": "Changing Role of Public Sector",
+          "page_start": 65,
+          "page_end": 68,
+          "subtopics": [
+            {
+              "subtopic_index": "3.4.0",
+              "subtopic_name": "Introduction",
+              "page_start": 65,
+              "page_end": 68
+            }
+          ]
+        },
+        {
+          "topic_index": "3.5",
+          "topic_name": "Global Enterprises",
+          "page_start": 69,
+          "page_end": 69,
+          "subtopics": [
+            {
+              "subtopic_index": "3.5.0",
+              "subtopic_name": "Introduction",
+              "page_start": 69,
+              "page_end": 69
+            }
+          ]
+        },
+        {
+          "topic_index": "3.6",
+          "topic_name": "Joint Ventures",
+          "page_start": 70,
+          "page_end": 72,
+          "subtopics": [
+            {
+              "subtopic_index": "3.6.0",
+              "subtopic_name": "Introduction",
+              "page_start": 70,
+              "page_end": 70
+            },
+            {
+              "subtopic_index": "3.6.1",
+              "subtopic_name": "Types of Joint Ventures",
+              "page_start": 71,
+              "page_end": 71
+            },
+            {
+              "subtopic_index": "3.6.2",
+              "subtopic_name": "Benefits",
+              "page_start": 72,
+              "page_end": 72
+            }
+          ]
+        },
+        {
+          "topic_index": "3.7",
+          "topic_name": "Public Private Partnership (PPP)",
+          "page_start": 73,
+          "page_end": 78,
+          "subtopics": [
+            {
+              "subtopic_index": "3.7.0",
+              "subtopic_name": "Introduction",
+              "page_start": 73,
+              "page_end": 78
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "chapter_index": 4,
+      "chapter_name": "Business Services",
+      "page_start": 79,
+      "page_end": 112,
+      "topics": [
+        {
+          "topic_index": "4.1",
+          "topic_name": "Introduction",
+          "page_start": 80,
+          "page_end": 80,
+          "subtopics": [
+            {
+              "subtopic_index": "4.1.0",
+              "subtopic_name": "Introduction",
+              "page_start": 80,
+              "page_end": 80
+            }
+          ]
+        },
+        {
+          "topic_index": "4.2",
+          "topic_name": "Nature of Services",
+          "page_start": 81,
+          "page_end": 81,
+          "subtopics": [
+            {
+              "subtopic_index": "4.2.0",
+              "subtopic_name": "Introduction",
+              "page_start": 81,
+              "page_end": 81
+            },
+            {
+              "subtopic_index": "4.2.1",
+              "subtopic_name": "Difference between Services and Goods",
+              "page_start": 82,
+              "page_end": 82
+            }
+          ]
+        },
+        {
+          "topic_index": "4.3",
+          "topic_name": "Types of Services",
+          "page_start": 82,
+          "page_end": 82,
+          "subtopics": [
+            {
+              "subtopic_index": "4.3.0",
+              "subtopic_name": "Introduction",
+              "page_start": 82,
+              "page_end": 82
+            },
+            {
+              "subtopic_index": "4.3.1",
+              "subtopic_name": "Business Services",
+              "page_start": 83,
+              "page_end": 83
+            }
+          ]
+        },
+        {
+          "topic_index": "4.4",
+          "topic_name": "Banking",
+          "page_start": 83,
+          "page_end": 87,
+          "subtopics": [
+            {
+              "subtopic_index": "4.4.0",
+              "subtopic_name": "Introduction",
+              "page_start": 83,
+              "page_end": 83
+            },
+            {
+              "subtopic_index": "4.4.1",
+              "subtopic_name": "Type of Banks",
+              "page_start": 84,
+              "page_end": 84
+            },
+            {
+              "subtopic_index": "4.4.2",
+              "subtopic_name": "Functions of Commercial Banks",
+              "page_start": 85,
+              "page_end": 85
+            },
+            {
+              "subtopic_index": "4.4.3",
+              "subtopic_name": "e-Banking",
+              "page_start": 86,
+              "page_end": 87
+            }
+          ]
+        },
+        {
+          "topic_index": "4.5",
+          "topic_name": "Insurance",
+          "page_start": 88,
+          "page_end": 97,
+          "subtopics": [
+            {
+              "subtopic_index": "4.5.0",
+              "subtopic_name": "Introduction",
+              "page_start": 88,
+              "page_end": 88
+            },
+            {
+              "subtopic_index": "4.5.1",
+              "subtopic_name": "Fundamental principle of Insurance",
+              "page_start": 88,
+              "page_end": 88
+            },
+            {
+              "subtopic_index": "4.5.2",
+              "subtopic_name": "Functions of Insurance",
+              "page_start": 89,
+              "page_end": 89
+            },
+            {
+              "subtopic_index": "4.5.3",
+              "subtopic_name": "Principles of Insurance",
+              "page_start": 89,
+              "page_end": 90
+            },
+            {
+              "subtopic_index": "4.5.4",
+              "subtopic_name": "Types of Insurance",
+              "page_start": 91,
+              "page_end": 97
+            }
+          ]
+        },
+        {
+          "topic_index": "4.6",
+          "topic_name": "Communication Services",
+          "page_start": 98,
+          "page_end": 100,
+          "subtopics": [
+            {
+              "subtopic_index": "4.6.0",
+              "subtopic_name": "Introduction",
+              "page_start": 98,
+              "page_end": 100
+            }
+          ]
+        },
+        {
+          "topic_index": "4.7",
+          "topic_name": "Transportation",
+          "page_start": 101,
+          "page_end": 112,
+          "subtopics": [
+            {
+              "subtopic_index": "4.7.0",
+              "subtopic_name": "Introduction",
+              "page_start": 101,
+              "page_end": 112
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "chapter_index": 5,
+      "chapter_name": "Emerging Modes of Business",
+      "page_start": 113,
+      "page_end": 132,
+      "topics": [
+        {
+          "topic_index": "5.1",
+          "topic_name": "Introduction",
+          "page_start": 114,
+          "page_end": 114,
+          "subtopics": [
+            {
+              "subtopic_index": "5.1.0",
+              "subtopic_name": "Introduction",
+              "page_start": 114,
+              "page_end": 114
+            }
+          ]
+        },
+        {
+          "topic_index": "5.2",
+          "topic_name": "e-Business",
+          "page_start": 115,
+          "page_end": 120,
+          "subtopics": [
+            {
+              "subtopic_index": "5.2.0",
+              "subtopic_name": "Introduction",
+              "page_start": 115,
+              "page_end": 115
+            },
+            {
+              "subtopic_index": "5.2.1",
+              "subtopic_name": "Scope of e-Business",
+              "page_start": 115,
+              "page_end": 120
+            }
+          ]
+        },
+        {
+          "topic_index": "5.3",
+          "topic_name": "Benefits of e-Business",
+          "page_start": 121,
+          "page_end": 122,
+          "subtopics": [
+            {
+              "subtopic_index": "5.3.0",
+              "subtopic_name": "Introduction",
+              "page_start": 121,
+              "page_end": 122
+            }
+          ]
+        },
+        {
+          "topic_index": "5.4",
+          "topic_name": "Limitations of e-Business",
+          "page_start": 123,
+          "page_end": 124,
+          "subtopics": [
+            {
+              "subtopic_index": "5.4.0",
+              "subtopic_name": "Introduction",
+              "page_start": 123,
+              "page_end": 124
+            }
+          ]
+        },
+        {
+          "topic_index": "5.5",
+          "topic_name": "Online Transactions",
+          "page_start": 125,
+          "page_end": 127,
+          "subtopics": [
+            {
+              "subtopic_index": "5.5.0",
+              "subtopic_name": "Introduction",
+              "page_start": 125,
+              "page_end": 127
+            }
+          ]
+        },
+        {
+          "topic_index": "5.6",
+          "topic_name": "Security and Safety of e-Transactions: e-Business Risks",
+          "page_start": 128,
+          "page_end": 129,
+          "subtopics": [
+            {
+              "subtopic_index": "5.6.0",
+              "subtopic_name": "Introduction",
+              "page_start": 128,
+              "page_end": 129
+            }
+          ]
+        },
+        {
+          "topic_index": "5.7",
+          "topic_name": "Resources Required for Successful e-business Implementation",
+          "page_start": 130,
+          "page_end": 132,
+          "subtopics": [
+            {
+              "subtopic_index": "5.7.0",
+              "subtopic_name": "Introduction",
+              "page_start": 130,
+              "page_end": 132
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "chapter_index": 6,
+      "chapter_name": "Social Responsibilities of Business and Business Ethics",
+      "page_start": 133,
+      "page_end": 150,
+      "topics": [
+        {
+          "topic_index": "6.1",
+          "topic_name": "Introduction",
+          "page_start": 134,
+          "page_end": 134,
+          "subtopics": [
+            {
+              "subtopic_index": "6.1.0",
+              "subtopic_name": "Introduction",
+              "page_start": 134,
+              "page_end": 134
+            }
+          ]
+        },
+        {
+          "topic_index": "6.2",
+          "topic_name": "Concept of Social Responsibility",
+          "page_start": 134,
+          "page_end": 134,
+          "subtopics": [
+            {
+              "subtopic_index": "6.2.0",
+              "subtopic_name": "Introduction",
+              "page_start": 134,
+              "page_end": 134
+            }
+          ]
+        },
+        {
+          "topic_index": "6.3",
+          "topic_name": "Need for Social Responsibility",
+          "page_start": 135,
+          "page_end": 139,
+          "subtopics": [
+            {
+              "subtopic_index": "6.3.0",
+              "subtopic_name": "Introduction",
+              "page_start": 135,
+              "page_end": 135
+            },
+            {
+              "subtopic_index": "6.3.1",
+              "subtopic_name": "Arguments for Social Responsibility",
+              "page_start": 136,
+              "page_end": 136
+            },
+            {
+              "subtopic_index": "6.3.2",
+              "subtopic_name": "Arguments against Social Responsibility",
+              "page_start": 137,
+              "page_end": 137
+            },
+            {
+              "subtopic_index": "6.3.3",
+              "subtopic_name": "Reality of Social Responsibility",
+              "page_start": 138,
+              "page_end": 139
+            }
+          ]
+        },
+        {
+          "topic_index": "6.4",
+          "topic_name": "Kinds of Social Responsibility",
+          "page_start": 140,
+          "page_end": 140,
+          "subtopics": [
+            {
+              "subtopic_index": "6.4.0",
+              "subtopic_name": "Introduction",
+              "page_start": 140,
+              "page_end": 140
+            }
+          ]
+        },
+        {
+          "topic_index": "6.5",
+          "topic_name": "Social Responsibility Towards Different Interest Groups",
+          "page_start": 140,
+          "page_end": 140,
+          "subtopics": [
+            {
+              "subtopic_index": "6.5.0",
+              "subtopic_name": "Introduction",
+              "page_start": 140,
+              "page_end": 140
+            }
+          ]
+        },
+        {
+          "topic_index": "6.6",
+          "topic_name": "Business and Environmental Protection",
+          "page_start": 141,
+          "page_end": 144,
+          "subtopics": [
+            {
+              "subtopic_index": "6.6.0",
+              "subtopic_name": "Introduction",
+              "page_start": 141,
+              "page_end": 141
+            },
+            {
+              "subtopic_index": "6.6.1",
+              "subtopic_name": "Causes of Pollution",
+              "page_start": 142,
+              "page_end": 142
+            },
+            {
+              "subtopic_index": "6.6.2",
+              "subtopic_name": "Need for Pollution Control",
+              "page_start": 143,
+              "page_end": 143
+            },
+            {
+              "subtopic_index": "6.6.3",
+              "subtopic_name": "Role of Business in Environmental Protection",
+              "page_start": 144,
+              "page_end": 144
+            }
+          ]
+        },
+        {
+          "topic_index": "6.7",
+          "topic_name": "Business Ethics",
+          "page_start": 145,
+          "page_end": 150,
+          "subtopics": [
+            {
+              "subtopic_index": "6.7.0",
+              "subtopic_name": "Introduction",
+              "page_start": 145,
+              "page_end": 145
+            },
+            {
+              "subtopic_index": "6.7.1",
+              "subtopic_name": "Concept of Business Ethics",
+              "page_start": 146,
+              "page_end": 146
+            },
+            {
+              "subtopic_index": "6.7.2",
+              "subtopic_name": "Elements of Business Ethics",
+              "page_start": 147,
+              "page_end": 150
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

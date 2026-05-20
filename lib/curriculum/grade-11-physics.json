@@ -1,0 +1,660 @@
+{
+  "grade": "11",
+  "subject": "Physics",
+  "language": "english",
+  "year": "2025",
+  "chapters": [
+    {
+      "chapter_index": 1,
+      "chapter_name": "Units and Measurements",
+      "page_start": 1,
+      "page_end": 12,
+      "topics": [
+        {
+          "topic_index": "1.1",
+          "topic_name": "Introduction",
+          "page_start": 1,
+          "page_end": 1,
+          "subtopics": [
+            { "subtopic_index": "1.1.0", "subtopic_name": "Introduction", "page_start": 1, "page_end": 1 }
+          ]
+        },
+        {
+          "topic_index": "1.2",
+          "topic_name": "The International System of Units",
+          "page_start": 1,
+          "page_end": 2,
+          "subtopics": [
+            { "subtopic_index": "1.2.0", "subtopic_name": "Introduction", "page_start": 1, "page_end": 2 }
+          ]
+        },
+        {
+          "topic_index": "1.3",
+          "topic_name": "Significant Figures",
+          "page_start": 3,
+          "page_end": 6,
+          "subtopics": [
+            { "subtopic_index": "1.3.0", "subtopic_name": "Introduction", "page_start": 3, "page_end": 4 },
+            { "subtopic_index": "1.3.1", "subtopic_name": "Rules for Arithmetic Operations with Significant Figures", "page_start": 5, "page_end": 5 },
+            { "subtopic_index": "1.3.2", "subtopic_name": "Rounding off the Uncertain Digits", "page_start": 5, "page_end": 5 },
+            { "subtopic_index": "1.3.3", "subtopic_name": "Rules for Determining the Uncertainty in the Results of Arithmetic Calculations", "page_start": 6, "page_end": 6 }
+          ]
+        },
+        {
+          "topic_index": "1.4",
+          "topic_name": "Dimensions of Physical Quantities",
+          "page_start": 7,
+          "page_end": 7,
+          "subtopics": [
+            { "subtopic_index": "1.4.0", "subtopic_name": "Introduction", "page_start": 7, "page_end": 7 }
+          ]
+        },
+        {
+          "topic_index": "1.5",
+          "topic_name": "Dimensional Formulae and Dimensional Equations",
+          "page_start": 7,
+          "page_end": 7,
+          "subtopics": [
+            { "subtopic_index": "1.5.0", "subtopic_name": "Introduction", "page_start": 7, "page_end": 7 }
+          ]
+        },
+        {
+          "topic_index": "1.6",
+          "topic_name": "Dimensional Analysis and Its Applications",
+          "page_start": 7,
+          "page_end": 9,
+          "subtopics": [
+            { "subtopic_index": "1.6.0", "subtopic_name": "Introduction", "page_start": 7, "page_end": 7 },
+            { "subtopic_index": "1.6.1", "subtopic_name": "Checking the Dimensional Consistency of Equations", "page_start": 8, "page_end": 8 },
+            { "subtopic_index": "1.6.2", "subtopic_name": "Deducing Relation among the Physical Quantities", "page_start": 9, "page_end": 9 }
+          ]
+        }
+      ]
+    },
+    {
+      "chapter_index": 2,
+      "chapter_name": "Motion in a Straight Line",
+      "page_start": 13,
+      "page_end": 26,
+      "topics": [
+        {
+          "topic_index": "2.1",
+          "topic_name": "Introduction",
+          "page_start": 13,
+          "page_end": 13,
+          "subtopics": [
+            { "subtopic_index": "2.1.0", "subtopic_name": "Introduction", "page_start": 13, "page_end": 13 }
+          ]
+        },
+        {
+          "topic_index": "2.2",
+          "topic_name": "Instantaneous Velocity and Speed",
+          "page_start": 14,
+          "page_end": 14,
+          "subtopics": [
+            { "subtopic_index": "2.2.0", "subtopic_name": "Introduction", "page_start": 14, "page_end": 14 }
+          ]
+        },
+        {
+          "topic_index": "2.3",
+          "topic_name": "Acceleration",
+          "page_start": 15,
+          "page_end": 16,
+          "subtopics": [
+            { "subtopic_index": "2.3.0", "subtopic_name": "Introduction", "page_start": 15, "page_end": 16 }
+          ]
+        },
+        {
+          "topic_index": "2.4",
+          "topic_name": "Kinematic Equations for Uniformly Accelerated Motion",
+          "page_start": 17,
+          "page_end": 21,
+          "subtopics": [
+            { "subtopic_index": "2.4.0", "subtopic_name": "Introduction", "page_start": 17, "page_end": 21 }
+          ]
+        }
+      ]
+    },
+    {
+      "chapter_index": 3,
+      "chapter_name": "Motion in a Plane",
+      "page_start": 27,
+      "page_end": 48,
+      "topics": [
+        {
+          "topic_index": "3.1",
+          "topic_name": "Introduction",
+          "page_start": 27,
+          "page_end": 27,
+          "subtopics": [
+            { "subtopic_index": "3.1.0", "subtopic_name": "Introduction", "page_start": 27, "page_end": 27 }
+          ]
+        },
+        {
+          "topic_index": "3.2",
+          "topic_name": "Scalars and Vectors",
+          "page_start": 27,
+          "page_end": 28,
+          "subtopics": [
+            { "subtopic_index": "3.2.0", "subtopic_name": "Introduction", "page_start": 27, "page_end": 27 },
+            { "subtopic_index": "3.2.1", "subtopic_name": "Position and Displacement Vectors", "page_start": 28, "page_end": 28 },
+            { "subtopic_index": "3.2.2", "subtopic_name": "Equality of Vectors", "page_start": 28, "page_end": 28 }
+          ]
+        },
+        {
+          "topic_index": "3.3",
+          "topic_name": "Multiplication of Vectors by Real Numbers",
+          "page_start": 29,
+          "page_end": 29,
+          "subtopics": [
+            { "subtopic_index": "3.3.0", "subtopic_name": "Introduction", "page_start": 29, "page_end": 29 }
+          ]
+        },
+        {
+          "topic_index": "3.4",
+          "topic_name": "Addition and Subtraction of Vectors — Graphical Method",
+          "page_start": 29,
+          "page_end": 30,
+          "subtopics": [
+            { "subtopic_index": "3.4.0", "subtopic_name": "Introduction", "page_start": 29, "page_end": 30 }
+          ]
+        },
+        {
+          "topic_index": "3.5",
+          "topic_name": "Resolution of Vectors",
+          "page_start": 31,
+          "page_end": 32,
+          "subtopics": [
+            { "subtopic_index": "3.5.0", "subtopic_name": "Introduction", "page_start": 31, "page_end": 32 }
+          ]
+        },
+        {
+          "topic_index": "3.6",
+          "topic_name": "Vector Addition – Analytical Method",
+          "page_start": 33,
+          "page_end": 33,
+          "subtopics": [
+            { "subtopic_index": "3.6.0", "subtopic_name": "Introduction", "page_start": 33, "page_end": 33 }
+          ]
+        },
+        {
+          "topic_index": "3.7",
+          "topic_name": "Motion in a Plane",
+          "page_start": 34,
+          "page_end": 36,
+          "subtopics": [
+            { "subtopic_index": "3.7.0", "subtopic_name": "Introduction", "page_start": 34, "page_end": 34 },
+            { "subtopic_index": "3.7.1", "subtopic_name": "Position Vector and Displacement", "page_start": 35, "page_end": 36 }
+          ]
+        },
+        {
+          "topic_index": "3.8",
+          "topic_name": "Motion in a Plane with Constant Acceleration",
+          "page_start": 37,
+          "page_end": 37,
+          "subtopics": [
+            { "subtopic_index": "3.8.0", "subtopic_name": "Introduction", "page_start": 37, "page_end": 37 }
+          ]
+        },
+        {
+          "topic_index": "3.9",
+          "topic_name": "Projectile Motion",
+          "page_start": 38,
+          "page_end": 39,
+          "subtopics": [
+            { "subtopic_index": "3.9.0", "subtopic_name": "Introduction", "page_start": 38, "page_end": 39 }
+          ]
+        },
+        {
+          "topic_index": "3.10",
+          "topic_name": "Uniform Circular Motion",
+          "page_start": 40,
+          "page_end": 45,
+          "subtopics": [
+            { "subtopic_index": "3.10.0", "subtopic_name": "Introduction", "page_start": 40, "page_end": 45 }
+          ]
+        }
+      ]
+    },
+    {
+      "chapter_index": 4,
+      "chapter_name": "Laws of Motion",
+      "page_start": 49,
+      "page_end": 70,
+      "topics": [
+        {
+          "topic_index": "4.1",
+          "topic_name": "Introduction",
+          "page_start": 49,
+          "page_end": 49,
+          "subtopics": [
+            { "subtopic_index": "4.1.0", "subtopic_name": "Introduction", "page_start": 49, "page_end": 49 }
+          ]
+        },
+        {
+          "topic_index": "4.2",
+          "topic_name": "Aristotle's Fallacy",
+          "page_start": 50,
+          "page_end": 50,
+          "subtopics": [
+            { "subtopic_index": "4.2.0", "subtopic_name": "Introduction", "page_start": 50, "page_end": 50 }
+          ]
+        },
+        {
+          "topic_index": "4.3",
+          "topic_name": "The Law of Inertia",
+          "page_start": 50,
+          "page_end": 50,
+          "subtopics": [
+            { "subtopic_index": "4.3.0", "subtopic_name": "Introduction", "page_start": 50, "page_end": 50 }
+          ]
+        },
+        {
+          "topic_index": "4.4",
+          "topic_name": "Newton's First Law of Motion",
+          "page_start": 51,
+          "page_end": 52,
+          "subtopics": [
+            { "subtopic_index": "4.4.0", "subtopic_name": "Introduction", "page_start": 51, "page_end": 52 }
+          ]
+        },
+        {
+          "topic_index": "4.5",
+          "topic_name": "Newton's Second Law of Motion",
+          "page_start": 53,
+          "page_end": 55,
+          "subtopics": [
+            { "subtopic_index": "4.5.0", "subtopic_name": "Introduction", "page_start": 53, "page_end": 55 }
+          ]
+        },
+        {
+          "topic_index": "4.6",
+          "topic_name": "Newton's Third Law of Motion",
+          "page_start": 56,
+          "page_end": 56,
+          "subtopics": [
+            { "subtopic_index": "4.6.0", "subtopic_name": "Introduction", "page_start": 56, "page_end": 56 }
+          ]
+        },
+        {
+          "topic_index": "4.7",
+          "topic_name": "Conservation of Momentum",
+          "page_start": 57,
+          "page_end": 57,
+          "subtopics": [
+            { "subtopic_index": "4.7.0", "subtopic_name": "Introduction", "page_start": 57, "page_end": 57 }
+          ]
+        },
+        {
+          "topic_index": "4.8",
+          "topic_name": "Equilibrium of a Particle",
+          "page_start": 58,
+          "page_end": 58,
+          "subtopics": [
+            { "subtopic_index": "4.8.0", "subtopic_name": "Introduction", "page_start": 58, "page_end": 58 }
+          ]
+        },
+        {
+          "topic_index": "4.9",
+          "topic_name": "Common Forces in Mechanics",
+          "page_start": 59,
+          "page_end": 62,
+          "subtopics": [
+            { "subtopic_index": "4.9.0", "subtopic_name": "Introduction", "page_start": 59, "page_end": 59 },
+            { "subtopic_index": "4.9.1", "subtopic_name": "Friction", "page_start": 60, "page_end": 62 }
+          ]
+        },
+        {
+          "topic_index": "4.10",
+          "topic_name": "Circular Motion",
+          "page_start": 63,
+          "page_end": 63,
+          "subtopics": [
+            { "subtopic_index": "4.10.0", "subtopic_name": "Introduction", "page_start": 63, "page_end": 63 }
+          ]
+        },
+        {
+          "topic_index": "4.11",
+          "topic_name": "Solving Problems in Mechanics",
+          "page_start": 64,
+          "page_end": 67,
+          "subtopics": [
+            { "subtopic_index": "4.11.0", "subtopic_name": "Introduction", "page_start": 64, "page_end": 67 }
+          ]
+        }
+      ]
+    },
+    {
+      "chapter_index": 5,
+      "chapter_name": "Work, Energy and Power",
+      "page_start": 71,
+      "page_end": 91,
+      "topics": [
+        {
+          "topic_index": "5.1",
+          "topic_name": "Introduction",
+          "page_start": 71,
+          "page_end": 72,
+          "subtopics": [
+            { "subtopic_index": "5.1.0", "subtopic_name": "Introduction", "page_start": 71, "page_end": 71 },
+            { "subtopic_index": "5.1.1", "subtopic_name": "The Scalar Product", "page_start": 71, "page_end": 72 }
+          ]
+        },
+        {
+          "topic_index": "5.2",
+          "topic_name": "Notions of Work and Kinetic Energy: The Work-Energy Theorem",
+          "page_start": 73,
+          "page_end": 73,
+          "subtopics": [
+            { "subtopic_index": "5.2.0", "subtopic_name": "Introduction", "page_start": 73, "page_end": 73 }
+          ]
+        },
+        {
+          "topic_index": "5.3",
+          "topic_name": "Work",
+          "page_start": 73,
+          "page_end": 73,
+          "subtopics": [
+            { "subtopic_index": "5.3.0", "subtopic_name": "Introduction", "page_start": 73, "page_end": 73 }
+          ]
+        },
+        {
+          "topic_index": "5.4",
+          "topic_name": "Kinetic Energy",
+          "page_start": 74,
+          "page_end": 74,
+          "subtopics": [
+            { "subtopic_index": "5.4.0", "subtopic_name": "Introduction", "page_start": 74, "page_end": 74 }
+          ]
+        },
+        {
+          "topic_index": "5.5",
+          "topic_name": "Work Done by a Variable Force",
+          "page_start": 75,
+          "page_end": 75,
+          "subtopics": [
+            { "subtopic_index": "5.5.0", "subtopic_name": "Introduction", "page_start": 75, "page_end": 75 }
+          ]
+        },
+        {
+          "topic_index": "5.6",
+          "topic_name": "The Work-Energy Theorem for a Variable Force",
+          "page_start": 76,
+          "page_end": 76,
+          "subtopics": [
+            { "subtopic_index": "5.6.0", "subtopic_name": "Introduction", "page_start": 76, "page_end": 76 }
+          ]
+        },
+        {
+          "topic_index": "5.7",
+          "topic_name": "The Concept of Potential Energy",
+          "page_start": 77,
+          "page_end": 77,
+          "subtopics": [
+            { "subtopic_index": "5.7.0", "subtopic_name": "Introduction", "page_start": 77, "page_end": 77 }
+          ]
+        },
+        {
+          "topic_index": "5.8",
+          "topic_name": "The Conservation of Mechanical Energy",
+          "page_start": 78,
+          "page_end": 79,
+          "subtopics": [
+            { "subtopic_index": "5.8.0", "subtopic_name": "Introduction", "page_start": 78, "page_end": 79 }
+          ]
+        },
+        {
+          "topic_index": "5.9",
+          "topic_name": "The Potential Energy of a Spring",
+          "page_start": 80,
+          "page_end": 82,
+          "subtopics": [
+            { "subtopic_index": "5.9.0", "subtopic_name": "Introduction", "page_start": 80, "page_end": 82 }
+          ]
+        },
+        {
+          "topic_index": "5.10",
+          "topic_name": "Power",
+          "page_start": 83,
+          "page_end": 83,
+          "subtopics": [
+            { "subtopic_index": "5.10.0", "subtopic_name": "Introduction", "page_start": 83, "page_end": 83 }
+          ]
+        },
+        {
+          "topic_index": "5.11",
+          "topic_name": "Collisions",
+          "page_start": 83,
+          "page_end": 86,
+          "subtopics": [
+            { "subtopic_index": "5.11.0", "subtopic_name": "Introduction", "page_start": 83, "page_end": 83 },
+            { "subtopic_index": "5.11.1", "subtopic_name": "Elastic and Inelastic Collisions", "page_start": 84, "page_end": 84 },
+            { "subtopic_index": "5.11.2", "subtopic_name": "Collisions in One Dimension", "page_start": 84, "page_end": 85 },
+            { "subtopic_index": "5.11.3", "subtopic_name": "Collisions in Two Dimensions", "page_start": 85, "page_end": 86 }
+          ]
+        }
+      ]
+    },
+    {
+      "chapter_index": 6,
+      "chapter_name": "System of Particles and Rotational Motion",
+      "page_start": 92,
+      "page_end": 126,
+      "topics": [
+        {
+          "topic_index": "6.1",
+          "topic_name": "Introduction",
+          "page_start": 92,
+          "page_end": 94,
+          "subtopics": [
+            { "subtopic_index": "6.1.0", "subtopic_name": "Introduction", "page_start": 92, "page_end": 92 },
+            { "subtopic_index": "6.1.1", "subtopic_name": "What kind of motion can a rigid body have?", "page_start": 93, "page_end": 94 }
+          ]
+        },
+        {
+          "topic_index": "6.2",
+          "topic_name": "Centre of Mass",
+          "page_start": 95,
+          "page_end": 98,
+          "subtopics": [
+            { "subtopic_index": "6.2.0", "subtopic_name": "Introduction", "page_start": 95, "page_end": 98 }
+          ]
+        },
+        {
+          "topic_index": "6.3",
+          "topic_name": "Motion of Centre of Mass",
+          "page_start": 99,
+          "page_end": 99,
+          "subtopics": [
+            { "subtopic_index": "6.3.0", "subtopic_name": "Introduction", "page_start": 99, "page_end": 99 }
+          ]
+        },
+        {
+          "topic_index": "6.4",
+          "topic_name": "Linear Momentum of a System of Particles",
+          "page_start": 100,
+          "page_end": 100,
+          "subtopics": [
+            { "subtopic_index": "6.4.0", "subtopic_name": "Introduction", "page_start": 100, "page_end": 100 }
+          ]
+        },
+        {
+          "topic_index": "6.5",
+          "topic_name": "Vector Product of Two Vectors",
+          "page_start": 101,
+          "page_end": 102,
+          "subtopics": [
+            { "subtopic_index": "6.5.0", "subtopic_name": "Introduction", "page_start": 101, "page_end": 102 }
+          ]
+        },
+        {
+          "topic_index": "6.6",
+          "topic_name": "Angular Velocity and Its Relation with Linear Velocity",
+          "page_start": 103,
+          "page_end": 105,
+          "subtopics": [
+            { "subtopic_index": "6.6.0", "subtopic_name": "Introduction", "page_start": 103, "page_end": 104 },
+            { "subtopic_index": "6.6.1", "subtopic_name": "Angular acceleration", "page_start": 105, "page_end": 105 }
+          ]
+        },
+        {
+          "topic_index": "6.7",
+          "topic_name": "Torque and Angular Momentum",
+          "page_start": 105,
+          "page_end": 108,
+          "subtopics": [
+            { "subtopic_index": "6.7.0", "subtopic_name": "Introduction", "page_start": 105, "page_end": 105 },
+            { "subtopic_index": "6.7.1", "subtopic_name": "Moment of force (Torque)", "page_start": 105, "page_end": 105 },
+            { "subtopic_index": "6.7.2", "subtopic_name": "Angular Momentum of a Particle", "page_start": 106, "page_end": 108 }
+          ]
+        },
+        {
+          "topic_index": "6.8",
+          "topic_name": "Equilibrium of a Rigid Body",
+          "page_start": 109,
+          "page_end": 113,
+          "subtopics": [
+            { "subtopic_index": "6.8.0", "subtopic_name": "Introduction", "page_start": 109, "page_end": 110 },
+            { "subtopic_index": "6.8.1", "subtopic_name": "Principle of moments", "page_start": 111, "page_end": 111 },
+            { "subtopic_index": "6.8.2", "subtopic_name": "Centre of Gravity", "page_start": 112, "page_end": 113 }
+          ]
+        },
+        {
+          "topic_index": "6.9",
+          "topic_name": "Moment of Inertia",
+          "page_start": 114,
+          "page_end": 115,
+          "subtopics": [
+            { "subtopic_index": "6.9.0", "subtopic_name": "Introduction", "page_start": 114, "page_end": 115 }
+          ]
+        },
+        {
+          "topic_index": "6.10",
+          "topic_name": "Kinematics of Rotational Motion About a Fixed Axis",
+          "page_start": 116,
+          "page_end": 117,
+          "subtopics": [
+            { "subtopic_index": "6.10.0", "subtopic_name": "Introduction", "page_start": 116, "page_end": 117 }
+          ]
+        },
+        {
+          "topic_index": "6.11",
+          "topic_name": "Dynamics of Rotational Motion About a Fixed Axis",
+          "page_start": 118,
+          "page_end": 120,
+          "subtopics": [
+            { "subtopic_index": "6.11.0", "subtopic_name": "Introduction", "page_start": 118, "page_end": 120 }
+          ]
+        },
+        {
+          "topic_index": "6.12",
+          "topic_name": "Angular Momentum in Case of Rotation About a Fixed Axis",
+          "page_start": 121,
+          "page_end": 125,
+          "subtopics": [
+            { "subtopic_index": "6.12.0", "subtopic_name": "Introduction", "page_start": 121, "page_end": 121 },
+            { "subtopic_index": "6.12.1", "subtopic_name": "Conservation of angular momentum", "page_start": 122, "page_end": 124 }
+          ]
+        }
+      ]
+    },
+    {
+      "chapter_index": 7,
+      "chapter_name": "Gravitation",
+      "page_start": 127,
+      "page_end": 143,
+      "topics": [
+        {
+          "topic_index": "7.1",
+          "topic_name": "Introduction",
+          "page_start": 127,
+          "page_end": 127,
+          "subtopics": [
+            { "subtopic_index": "7.1.0", "subtopic_name": "Introduction", "page_start": 127, "page_end": 127 }
+          ]
+        },
+        {
+          "topic_index": "7.2",
+          "topic_name": "Kepler's Laws",
+          "page_start": 128,
+          "page_end": 128,
+          "subtopics": [
+            { "subtopic_index": "7.2.0", "subtopic_name": "Introduction", "page_start": 128, "page_end": 128 }
+          ]
+        },
+        {
+          "topic_index": "7.3",
+          "topic_name": "Universal Law of Gravitation",
+          "page_start": 129,
+          "page_end": 130,
+          "subtopics": [
+            { "subtopic_index": "7.3.0", "subtopic_name": "Introduction", "page_start": 129, "page_end": 130 }
+          ]
+        },
+        {
+          "topic_index": "7.4",
+          "topic_name": "The Gravitational Constant",
+          "page_start": 131,
+          "page_end": 131,
+          "subtopics": [
+            { "subtopic_index": "7.4.0", "subtopic_name": "Introduction", "page_start": 131, "page_end": 131 }
+          ]
+        },
+        {
+          "topic_index": "7.5",
+          "topic_name": "Acceleration Due to Gravity of the Earth",
+          "page_start": 132,
+          "page_end": 132,
+          "subtopics": [
+            { "subtopic_index": "7.5.0", "subtopic_name": "Introduction", "page_start": 132, "page_end": 132 }
+          ]
+        },
+        {
+          "topic_index": "7.6",
+          "topic_name": "Acceleration Due to Gravity Below and Above the Surface of Earth",
+          "page_start": 133,
+          "page_end": 133,
+          "subtopics": [
+            { "subtopic_index": "7.6.0", "subtopic_name": "Introduction", "page_start": 133, "page_end": 133 }
+          ]
+        },
+        {
+          "topic_index": "7.7",
+          "topic_name": "Gravitational Potential Energy",
+          "page_start": 134,
+          "page_end": 134,
+          "subtopics": [
+            { "subtopic_index": "7.7.0", "subtopic_name": "Introduction", "page_start": 134, "page_end": 134 }
+          ]
+        },
+        {
+          "topic_index": "7.8",
+          "topic_name": "Escape Speed",
+          "page_start": 135,
+          "page_end": 136,
+          "subtopics": [
+            { "subtopic_index": "7.8.0", "subtopic_name": "Introduction", "page_start": 135, "page_end": 136 }
+          ]
+        },
+        {
+          "topic_index": "7.9",
+          "topic_name": "Earth Satellites",
+          "page_start": 137,
+          "page_end": 137,
+          "subtopics": [
+            { "subtopic_index": "7.9.0", "subtopic_name": "Introduction", "page_start": 137, "page_end": 137 }
+          ]
+        },
+        {
+          "topic_index": "7.10",
+          "topic_name": "Energy of an Orbiting Satellite",
+          "page_start": 138,
+          "page_end": 140,
+          "subtopics": [
+            { "subtopic_index": "7.10.0", "subtopic_name": "Introduction", "page_start": 138, "page_end": 140 }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,817 @@
+{
+  "grade": "10",
+  "subject": "Social Science",
+  "book": "geography",
+  "language": "english",
+  "year": "2025",
+  "chapters": [
+    {
+      "chapter_index": 1,
+      "chapter_name": "Resources and Development",
+      "page_start": 1,
+      "page_end": 12,
+      "topics": [
+        {
+          "topic_index": "1.0",
+          "topic_name": "Introduction",
+          "page_start": 1,
+          "page_end": 1,
+          "subtopics": [
+            {
+              "subtopic_index": "1.0.0",
+              "subtopic_name": "Introduction",
+              "page_start": 1,
+              "page_end": 1
+            }
+          ]
+        },
+        {
+          "topic_index": "1.1",
+          "topic_name": "Development of Resources",
+          "page_start": 2,
+          "page_end": 2,
+          "subtopics": [
+            {
+              "subtopic_index": "1.1.0",
+              "subtopic_name": "Introduction",
+              "page_start": 2,
+              "page_end": 2
+            }
+          ]
+        },
+        {
+          "topic_index": "1.2",
+          "topic_name": "Resource Planning",
+          "page_start": 2,
+          "page_end": 4,
+          "subtopics": [
+            {
+              "subtopic_index": "1.2.0",
+              "subtopic_name": "Introduction",
+              "page_start": 2,
+              "page_end": 3
+            },
+            {
+              "subtopic_index": "1.2.1",
+              "subtopic_name": "Resource Planning in India",
+              "page_start": 3,
+              "page_end": 4
+            }
+          ]
+        },
+        {
+          "topic_index": "1.3",
+          "topic_name": "Land Resources",
+          "page_start": 4,
+          "page_end": 6,
+          "subtopics": [
+            {
+              "subtopic_index": "1.3.0",
+              "subtopic_name": "Introduction",
+              "page_start": 4,
+              "page_end": 4
+            },
+            {
+              "subtopic_index": "1.3.1",
+              "subtopic_name": "Land Utilisation",
+              "page_start": 4,
+              "page_end": 4
+            },
+            {
+              "subtopic_index": "1.3.2",
+              "subtopic_name": "Land Use Pattern in India",
+              "page_start": 4,
+              "page_end": 6
+            },
+            {
+              "subtopic_index": "1.3.3",
+              "subtopic_name": "Land Degradation and Conservation Measures",
+              "page_start": 6,
+              "page_end": 6
+            }
+          ]
+        },
+        {
+          "topic_index": "1.4",
+          "topic_name": "Soil as a Resource",
+          "page_start": 6,
+          "page_end": 10,
+          "subtopics": [
+            {
+              "subtopic_index": "1.4.0",
+              "subtopic_name": "Introduction",
+              "page_start": 6,
+              "page_end": 7
+            },
+            {
+              "subtopic_index": "1.4.1",
+              "subtopic_name": "Classification of Soils",
+              "page_start": 7,
+              "page_end": 9
+            },
+            {
+              "subtopic_index": "1.4.2",
+              "subtopic_name": "Soil Erosion and Soil Conservation",
+              "page_start": 10,
+              "page_end": 10
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "chapter_index": 2,
+      "chapter_name": "Forest and Wildlife Resources",
+      "page_start": 13,
+      "page_end": 18,
+      "topics": [
+        {
+          "topic_index": "2.0",
+          "topic_name": "Introduction",
+          "page_start": 13,
+          "page_end": 13,
+          "subtopics": [
+            {
+              "subtopic_index": "2.0.0",
+              "subtopic_name": "Introduction",
+              "page_start": 13,
+              "page_end": 13
+            }
+          ]
+        },
+        {
+          "topic_index": "2.1",
+          "topic_name": "Flora and Fauna in India",
+          "page_start": 13,
+          "page_end": 13,
+          "subtopics": [
+            {
+              "subtopic_index": "2.1.0",
+              "subtopic_name": "Introduction",
+              "page_start": 13,
+              "page_end": 13
+            }
+          ]
+        },
+        {
+          "topic_index": "2.2",
+          "topic_name": "Conservation of Forest and Wildlife in India",
+          "page_start": 13,
+          "page_end": 15,
+          "subtopics": [
+            {
+              "subtopic_index": "2.2.0",
+              "subtopic_name": "Introduction",
+              "page_start": 13,
+              "page_end": 15
+            }
+          ]
+        },
+        {
+          "topic_index": "2.3",
+          "topic_name": "Types and Distribution of Forest and Wildlife Resources",
+          "page_start": 15,
+          "page_end": 16,
+          "subtopics": [
+            {
+              "subtopic_index": "2.3.0",
+              "subtopic_name": "Introduction",
+              "page_start": 15,
+              "page_end": 16
+            }
+          ]
+        },
+        {
+          "topic_index": "2.4",
+          "topic_name": "Community and Conservation",
+          "page_start": 16,
+          "page_end": 17,
+          "subtopics": [
+            {
+              "subtopic_index": "2.4.0",
+              "subtopic_name": "Introduction",
+              "page_start": 16,
+              "page_end": 17
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "chapter_index": 3,
+      "chapter_name": "Water Resources",
+      "page_start": 19,
+      "page_end": 29,
+      "topics": [
+        {
+          "topic_index": "3.0",
+          "topic_name": "Introduction",
+          "page_start": 19,
+          "page_end": 19,
+          "subtopics": [
+            {
+              "subtopic_index": "3.0.0",
+              "subtopic_name": "Introduction",
+              "page_start": 19,
+              "page_end": 19
+            }
+          ]
+        },
+        {
+          "topic_index": "3.1",
+          "topic_name": "Water Scarcity and the Need for Water Conservation and Management",
+          "page_start": 19,
+          "page_end": 21,
+          "subtopics": [
+            {
+              "subtopic_index": "3.1.0",
+              "subtopic_name": "Introduction",
+              "page_start": 19,
+              "page_end": 21
+            }
+          ]
+        },
+        {
+          "topic_index": "3.2",
+          "topic_name": "Multi-purpose Projects and Integrated Water Resource Management",
+          "page_start": 21,
+          "page_end": 24,
+          "subtopics": [
+            {
+              "subtopic_index": "3.2.0",
+              "subtopic_name": "Introduction",
+              "page_start": 21,
+              "page_end": 24
+            }
+          ]
+        },
+        {
+          "topic_index": "3.3",
+          "topic_name": "Rainwater Harvesting",
+          "page_start": 25,
+          "page_end": 28,
+          "subtopics": [
+            {
+              "subtopic_index": "3.3.0",
+              "subtopic_name": "Introduction",
+              "page_start": 25,
+              "page_end": 27
+            },
+            {
+              "subtopic_index": "3.3.1",
+              "subtopic_name": "Bamboo Drip Irrigation System",
+              "page_start": 28,
+              "page_end": 28
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "chapter_index": 4,
+      "chapter_name": "Agriculture",
+      "page_start": 30,
+      "page_end": 41,
+      "topics": [
+        {
+          "topic_index": "4.0",
+          "topic_name": "Introduction",
+          "page_start": 30,
+          "page_end": 30,
+          "subtopics": [
+            {
+              "subtopic_index": "4.0.0",
+              "subtopic_name": "Introduction",
+              "page_start": 30,
+              "page_end": 30
+            }
+          ]
+        },
+        {
+          "topic_index": "4.1",
+          "topic_name": "Types of Farming",
+          "page_start": 30,
+          "page_end": 31,
+          "subtopics": [
+            {
+              "subtopic_index": "4.1.0",
+              "subtopic_name": "Introduction",
+              "page_start": 30,
+              "page_end": 30
+            },
+            {
+              "subtopic_index": "4.1.1",
+              "subtopic_name": "Primitive Subsistence Farming",
+              "page_start": 30,
+              "page_end": 31
+            },
+            {
+              "subtopic_index": "4.1.2",
+              "subtopic_name": "Intensive Subsistence Farming",
+              "page_start": 31,
+              "page_end": 31
+            },
+            {
+              "subtopic_index": "4.1.3",
+              "subtopic_name": "Commercial Farming",
+              "page_start": 31,
+              "page_end": 31
+            }
+          ]
+        },
+        {
+          "topic_index": "4.2",
+          "topic_name": "Cropping Pattern",
+          "page_start": 32,
+          "page_end": 32,
+          "subtopics": [
+            {
+              "subtopic_index": "4.2.0",
+              "subtopic_name": "Introduction",
+              "page_start": 32,
+              "page_end": 32
+            }
+          ]
+        },
+        {
+          "topic_index": "4.3",
+          "topic_name": "Major Crops",
+          "page_start": 32,
+          "page_end": 38,
+          "subtopics": [
+            {
+              "subtopic_index": "4.3.0",
+              "subtopic_name": "Introduction",
+              "page_start": 32,
+              "page_end": 32
+            },
+            {
+              "subtopic_index": "4.3.1",
+              "subtopic_name": "Grains",
+              "page_start": 32,
+              "page_end": 36
+            },
+            {
+              "subtopic_index": "4.3.2",
+              "subtopic_name": "Food Crops other than Grains",
+              "page_start": 36,
+              "page_end": 37
+            },
+            {
+              "subtopic_index": "4.3.3",
+              "subtopic_name": "Non-Food Crops",
+              "page_start": 38,
+              "page_end": 38
+            }
+          ]
+        },
+        {
+          "topic_index": "4.4",
+          "topic_name": "Technological and Institutional Reforms",
+          "page_start": 38,
+          "page_end": 39,
+          "subtopics": [
+            {
+              "subtopic_index": "4.4.0",
+              "subtopic_name": "Introduction",
+              "page_start": 38,
+              "page_end": 39
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "chapter_index": 5,
+      "chapter_name": "Minerals and Energy Resources",
+      "page_start": 42,
+      "page_end": 57,
+      "topics": [
+        {
+          "topic_index": "5.0",
+          "topic_name": "Introduction",
+          "page_start": 42,
+          "page_end": 42,
+          "subtopics": [
+            {
+              "subtopic_index": "5.0.0",
+              "subtopic_name": "Introduction",
+              "page_start": 42,
+              "page_end": 42
+            }
+          ]
+        },
+        {
+          "topic_index": "5.1",
+          "topic_name": "What is a mineral?",
+          "page_start": 42,
+          "page_end": 43,
+          "subtopics": [
+            {
+              "subtopic_index": "5.1.0",
+              "subtopic_name": "Introduction",
+              "page_start": 42,
+              "page_end": 43
+            }
+          ]
+        },
+        {
+          "topic_index": "5.2",
+          "topic_name": "Mode of Occurrence of Minerals",
+          "page_start": 43,
+          "page_end": 44,
+          "subtopics": [
+            {
+              "subtopic_index": "5.2.0",
+              "subtopic_name": "Introduction",
+              "page_start": 43,
+              "page_end": 44
+            }
+          ]
+        },
+        {
+          "topic_index": "5.3",
+          "topic_name": "Ferrous Minerals",
+          "page_start": 44,
+          "page_end": 46,
+          "subtopics": [
+            {
+              "subtopic_index": "5.3.0",
+              "subtopic_name": "Introduction",
+              "page_start": 44,
+              "page_end": 44
+            },
+            {
+              "subtopic_index": "5.3.1",
+              "subtopic_name": "Iron Ore",
+              "page_start": 44,
+              "page_end": 45
+            },
+            {
+              "subtopic_index": "5.3.2",
+              "subtopic_name": "Manganese",
+              "page_start": 45,
+              "page_end": 45
+            }
+          ]
+        },
+        {
+          "topic_index": "5.4",
+          "topic_name": "Non-Ferrous Minerals",
+          "page_start": 45,
+          "page_end": 48,
+          "subtopics": [
+            {
+              "subtopic_index": "5.4.0",
+              "subtopic_name": "Introduction",
+              "page_start": 45,
+              "page_end": 46
+            },
+            {
+              "subtopic_index": "5.4.1",
+              "subtopic_name": "Copper",
+              "page_start": 47,
+              "page_end": 47
+            },
+            {
+              "subtopic_index": "5.4.2",
+              "subtopic_name": "Bauxite",
+              "page_start": 47,
+              "page_end": 48
+            }
+          ]
+        },
+        {
+          "topic_index": "5.5",
+          "topic_name": "Non-Metallic Minerals",
+          "page_start": 48,
+          "page_end": 48,
+          "subtopics": [
+            {
+              "subtopic_index": "5.5.0",
+              "subtopic_name": "Introduction",
+              "page_start": 48,
+              "page_end": 48
+            }
+          ]
+        },
+        {
+          "topic_index": "5.6",
+          "topic_name": "Rock Minerals",
+          "page_start": 48,
+          "page_end": 48,
+          "subtopics": [
+            {
+              "subtopic_index": "5.6.0",
+              "subtopic_name": "Introduction",
+              "page_start": 48,
+              "page_end": 48
+            }
+          ]
+        },
+        {
+          "topic_index": "5.7",
+          "topic_name": "Conservation of Minerals",
+          "page_start": 48,
+          "page_end": 50,
+          "subtopics": [
+            {
+              "subtopic_index": "5.7.1",
+              "subtopic_name": "Hazards of Mining",
+              "page_start": 48,
+              "page_end": 49
+            },
+            {
+              "subtopic_index": "5.7.2",
+              "subtopic_name": "Conservation of Minerals",
+              "page_start": 49,
+              "page_end": 50
+            }
+          ]
+        },
+        {
+          "topic_index": "5.8",
+          "topic_name": "Energy Resources",
+          "page_start": 50,
+          "page_end": 50,
+          "subtopics": [
+            {
+              "subtopic_index": "5.8.0",
+              "subtopic_name": "Introduction",
+              "page_start": 50,
+              "page_end": 50
+            }
+          ]
+        },
+        {
+          "topic_index": "5.9",
+          "topic_name": "Conventional Sources of Energy",
+          "page_start": 50,
+          "page_end": 52,
+          "subtopics": [
+            {
+              "subtopic_index": "5.9.1",
+              "subtopic_name": "Coal",
+              "page_start": 50,
+              "page_end": 52
+            },
+            {
+              "subtopic_index": "5.9.2",
+              "subtopic_name": "Petroleum",
+              "page_start": 52,
+              "page_end": 52
+            },
+            {
+              "subtopic_index": "5.9.3",
+              "subtopic_name": "Natural Gas",
+              "page_start": 52,
+              "page_end": 52
+            },
+            {
+              "subtopic_index": "5.9.4",
+              "subtopic_name": "Electricity",
+              "page_start": 52,
+              "page_end": 52
+            }
+          ]
+        },
+        {
+          "topic_index": "5.10",
+          "topic_name": "Non-Conventional Sources of Energy",
+          "page_start": 54,
+          "page_end": 55,
+          "subtopics": [
+            {
+              "subtopic_index": "5.10.0",
+              "subtopic_name": "Introduction",
+              "page_start": 54,
+              "page_end": 54
+            },
+            {
+              "subtopic_index": "5.10.1",
+              "subtopic_name": "Nuclear or Atomic Energy",
+              "page_start": 54,
+              "page_end": 54
+            },
+            {
+              "subtopic_index": "5.10.2",
+              "subtopic_name": "Solar Energy",
+              "page_start": 54,
+              "page_end": 54
+            },
+            {
+              "subtopic_index": "5.10.3",
+              "subtopic_name": "Wind Power",
+              "page_start": 54,
+              "page_end": 54
+            },
+            {
+              "subtopic_index": "5.10.4",
+              "subtopic_name": "Biogas",
+              "page_start": 54,
+              "page_end": 55
+            },
+            {
+              "subtopic_index": "5.10.5",
+              "subtopic_name": "Tidal Energy",
+              "page_start": 55,
+              "page_end": 55
+            },
+            {
+              "subtopic_index": "5.10.6",
+              "subtopic_name": "Geo Thermal Energy",
+              "page_start": 55,
+              "page_end": 55
+            }
+          ]
+        },
+        {
+          "topic_index": "5.11",
+          "topic_name": "Conservation of Energy Resources",
+          "page_start": 55,
+          "page_end": 55,
+          "subtopics": [
+            {
+              "subtopic_index": "5.11.0",
+              "subtopic_name": "Introduction",
+              "page_start": 55,
+              "page_end": 55
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "chapter_index": 6,
+      "chapter_name": "Manufacturing Industries",
+      "page_start": 58,
+      "page_end": 70,
+      "topics": [
+        {
+          "topic_index": "6.0",
+          "topic_name": "Introduction",
+          "page_start": 58,
+          "page_end": 58,
+          "subtopics": [
+            {
+              "subtopic_index": "6.0.0",
+              "subtopic_name": "Introduction",
+              "page_start": 58,
+              "page_end": 58
+            }
+          ]
+        },
+        {
+          "topic_index": "6.1",
+          "topic_name": "Importance of Manufacturing",
+          "page_start": 58,
+          "page_end": 59,
+          "subtopics": [
+            {
+              "subtopic_index": "6.1.0",
+              "subtopic_name": "Introduction",
+              "page_start": 58,
+              "page_end": 59
+            }
+          ]
+        },
+        {
+          "topic_index": "6.2",
+          "topic_name": "Classification of Industries",
+          "page_start": 59,
+          "page_end": 59,
+          "subtopics": [
+            {
+              "subtopic_index": "6.2.0",
+              "subtopic_name": "Introduction",
+              "page_start": 59,
+              "page_end": 59
+            }
+          ]
+        },
+        {
+          "topic_index": "6.3",
+          "topic_name": "Agro-based Industries",
+          "page_start": 59,
+          "page_end": 62,
+          "subtopics": [
+            {
+              "subtopic_index": "6.3.0",
+              "subtopic_name": "Introduction",
+              "page_start": 59,
+              "page_end": 59
+            },
+            {
+              "subtopic_index": "6.3.1",
+              "subtopic_name": "Textile Industry",
+              "page_start": 60,
+              "page_end": 60
+            },
+            {
+              "subtopic_index": "6.3.2",
+              "subtopic_name": "Cotton Textiles",
+              "page_start": 60,
+              "page_end": 60
+            },
+            {
+              "subtopic_index": "6.3.3",
+              "subtopic_name": "Jute Textiles",
+              "page_start": 60,
+              "page_end": 62
+            },
+            {
+              "subtopic_index": "6.3.4",
+              "subtopic_name": "Sugar Industry",
+              "page_start": 62,
+              "page_end": 62
+            }
+          ]
+        },
+        {
+          "topic_index": "6.4",
+          "topic_name": "Mineral-based Industries",
+          "page_start": 62,
+          "page_end": 65,
+          "subtopics": [
+            {
+              "subtopic_index": "6.4.0",
+              "subtopic_name": "Introduction",
+              "page_start": 62,
+              "page_end": 62
+            },
+            {
+              "subtopic_index": "6.4.1",
+              "subtopic_name": "Iron and Steel Industry",
+              "page_start": 62,
+              "page_end": 64
+            },
+            {
+              "subtopic_index": "6.4.2",
+              "subtopic_name": "Aluminium Smelting",
+              "page_start": 64,
+              "page_end": 64
+            },
+            {
+              "subtopic_index": "6.4.3",
+              "subtopic_name": "Chemical Industries",
+              "page_start": 64,
+              "page_end": 65
+            },
+            {
+              "subtopic_index": "6.4.4",
+              "subtopic_name": "Fertilizer Industry",
+              "page_start": 65,
+              "page_end": 65
+            },
+            {
+              "subtopic_index": "6.4.5",
+              "subtopic_name": "Cement Industry",
+              "page_start": 65,
+              "page_end": 65
+            },
+            {
+              "subtopic_index": "6.4.6",
+              "subtopic_name": "Automobile Industry",
+              "page_start": 65,
+              "page_end": 65
+            },
+            {
+              "subtopic_index": "6.4.7",
+              "subtopic_name": "Information Technology and Electronics Industry",
+              "page_start": 65,
+              "page_end": 65
+            }
+          ]
+        },
+        {
+          "topic_index": "6.5",
+          "topic_name": "Industrial Pollution and Environmental Degradation",
+          "page_start": 66,
+          "page_end": 66,
+          "subtopics": [
+            {
+              "subtopic_index": "6.5.0",
+              "subtopic_name": "Introduction",
+              "page_start": 66,
+              "page_end": 66
+            }
+          ]
+        },
+        {
+          "topic_index": "6.6",
+          "topic_name": "Control of Environmental Degradation",
+          "page_start": 66,
+          "page_end": 68,
+          "subtopics": [
+            {
+              "subtopic_index": "6.6.0",
+              "subtopic_name": "Introduction",
+              "page_start": 66,
+              "page_end": 68
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

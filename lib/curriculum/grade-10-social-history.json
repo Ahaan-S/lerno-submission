@@ -1,0 +1,567 @@
+{
+  "grade": "10",
+  "subject": "Social Science",
+  "book": "history",
+  "language": "english",
+  "year": "2025",
+  "chapters": [
+    {
+      "chapter_index": 1,
+      "chapter_name": "The Rise of Nationalism in Europe",
+      "page_start": 3,
+      "page_end": 28,
+      "topics": [
+        {
+          "topic_index": "1.0",
+          "topic_name": "Introduction",
+          "page_start": 3,
+          "page_end": 4,
+          "subtopics": [
+            {
+              "subtopic_index": "1.0.0",
+              "subtopic_name": "Introduction",
+              "page_start": 3,
+              "page_end": 4
+            }
+          ]
+        },
+        {
+          "topic_index": "1.1",
+          "topic_name": "The French Revolution and the Idea of the Nation",
+          "page_start": 5,
+          "page_end": 7,
+          "subtopics": [
+            {
+              "subtopic_index": "1.1.0",
+              "subtopic_name": "Introduction",
+              "page_start": 5,
+              "page_end": 7
+            }
+          ]
+        },
+        {
+          "topic_index": "1.2",
+          "topic_name": "The Making of Nationalism in Europe",
+          "page_start": 8,
+          "page_end": 12,
+          "subtopics": [
+            {
+              "subtopic_index": "1.2.0",
+              "subtopic_name": "Introduction",
+              "page_start": 8,
+              "page_end": 8
+            },
+            {
+              "subtopic_index": "1.2.1",
+              "subtopic_name": "The Aristocracy and the New Middle Class",
+              "page_start": 8,
+              "page_end": 9
+            },
+            {
+              "subtopic_index": "1.2.2",
+              "subtopic_name": "What did Liberal Nationalism Stand for?",
+              "page_start": 9,
+              "page_end": 10
+            },
+            {
+              "subtopic_index": "1.2.3",
+              "subtopic_name": "A New Conservatism after 1815",
+              "page_start": 10,
+              "page_end": 11
+            },
+            {
+              "subtopic_index": "1.2.4",
+              "subtopic_name": "The Revolutionaries",
+              "page_start": 12,
+              "page_end": 12
+            }
+          ]
+        },
+        {
+          "topic_index": "1.3",
+          "topic_name": "The Age of Revolutions: 1830-1848",
+          "page_start": 13,
+          "page_end": 18,
+          "subtopics": [
+            {
+              "subtopic_index": "1.3.0",
+              "subtopic_name": "Introduction",
+              "page_start": 13,
+              "page_end": 13
+            },
+            {
+              "subtopic_index": "1.3.1",
+              "subtopic_name": "The Romantic Imagination and National Feeling",
+              "page_start": 13,
+              "page_end": 15
+            },
+            {
+              "subtopic_index": "1.3.2",
+              "subtopic_name": "Hunger, Hardship and Popular Revolt",
+              "page_start": 15,
+              "page_end": 16
+            },
+            {
+              "subtopic_index": "1.3.3",
+              "subtopic_name": "1848: The Revolution of the Liberals",
+              "page_start": 17,
+              "page_end": 18
+            }
+          ]
+        },
+        {
+          "topic_index": "1.4",
+          "topic_name": "The Making of Germany and Italy",
+          "page_start": 19,
+          "page_end": 22,
+          "subtopics": [
+            {
+              "subtopic_index": "1.4.1",
+              "subtopic_name": "Germany – Can the Army be the Architect of a Nation?",
+              "page_start": 19,
+              "page_end": 20
+            },
+            {
+              "subtopic_index": "1.4.2",
+              "subtopic_name": "Italy Unified",
+              "page_start": 20,
+              "page_end": 21
+            },
+            {
+              "subtopic_index": "1.4.3",
+              "subtopic_name": "The Strange Case of Britain",
+              "page_start": 21,
+              "page_end": 22
+            }
+          ]
+        },
+        {
+          "topic_index": "1.5",
+          "topic_name": "Visualising the Nation",
+          "page_start": 23,
+          "page_end": 25,
+          "subtopics": [
+            {
+              "subtopic_index": "1.5.0",
+              "subtopic_name": "Introduction",
+              "page_start": 23,
+              "page_end": 25
+            }
+          ]
+        },
+        {
+          "topic_index": "1.6",
+          "topic_name": "Nationalism and Imperialism",
+          "page_start": 26,
+          "page_end": 27,
+          "subtopics": [
+            {
+              "subtopic_index": "1.6.0",
+              "subtopic_name": "Introduction",
+              "page_start": 26,
+              "page_end": 27
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "chapter_index": 2,
+      "chapter_name": "Nationalism in India",
+      "page_start": 29,
+      "page_end": 50,
+      "topics": [
+        {
+          "topic_index": "2.0",
+          "topic_name": "Introduction",
+          "page_start": 29,
+          "page_end": 29,
+          "subtopics": [
+            {
+              "subtopic_index": "2.0.0",
+              "subtopic_name": "Introduction",
+              "page_start": 29,
+              "page_end": 29
+            }
+          ]
+        },
+        {
+          "topic_index": "2.1",
+          "topic_name": "The First World War, Khilafat and Non-Cooperation",
+          "page_start": 30,
+          "page_end": 33,
+          "subtopics": [
+            {
+              "subtopic_index": "2.1.0",
+              "subtopic_name": "Introduction",
+              "page_start": 30,
+              "page_end": 30
+            },
+            {
+              "subtopic_index": "2.1.1",
+              "subtopic_name": "The Idea of Satyagraha",
+              "page_start": 30,
+              "page_end": 31
+            },
+            {
+              "subtopic_index": "2.1.2",
+              "subtopic_name": "The Rowlatt Act",
+              "page_start": 31,
+              "page_end": 32
+            },
+            {
+              "subtopic_index": "2.1.3",
+              "subtopic_name": "Why Non-Cooperation?",
+              "page_start": 32,
+              "page_end": 33
+            }
+          ]
+        },
+        {
+          "topic_index": "2.2",
+          "topic_name": "The Making of Nationalism in Europe",
+          "page_start": 34,
+          "page_end": 37,
+          "subtopics": [
+            {
+              "subtopic_index": "2.2.0",
+              "subtopic_name": "Introduction",
+              "page_start": 34,
+              "page_end": 34
+            },
+            {
+              "subtopic_index": "2.2.1",
+              "subtopic_name": "The Movement in the Towns",
+              "page_start": 34,
+              "page_end": 34
+            },
+            {
+              "subtopic_index": "2.2.2",
+              "subtopic_name": "Rebellion in the Countryside",
+              "page_start": 34,
+              "page_end": 36
+            },
+            {
+              "subtopic_index": "2.2.3",
+              "subtopic_name": "Swaraj in the Plantations",
+              "page_start": 36,
+              "page_end": 37
+            }
+          ]
+        },
+        {
+          "topic_index": "2.3",
+          "topic_name": "Towards Civil Disobedience",
+          "page_start": 38,
+          "page_end": 45,
+          "subtopics": [
+            {
+              "subtopic_index": "2.3.0",
+              "subtopic_name": "Introduction",
+              "page_start": 38,
+              "page_end": 39
+            },
+            {
+              "subtopic_index": "2.3.1",
+              "subtopic_name": "The Salt March and the Civil Disobedience Movement",
+              "page_start": 39,
+              "page_end": 41
+            },
+            {
+              "subtopic_index": "2.3.2",
+              "subtopic_name": "How Participants saw the Movement",
+              "page_start": 41,
+              "page_end": 43
+            },
+            {
+              "subtopic_index": "2.3.3",
+              "subtopic_name": "The Limits of Civil Disobedience",
+              "page_start": 43,
+              "page_end": 45
+            }
+          ]
+        },
+        {
+          "topic_index": "2.4",
+          "topic_name": "The Sense of Collective Belonging",
+          "page_start": 46,
+          "page_end": 50,
+          "subtopics": [
+            {
+              "subtopic_index": "2.4.0",
+              "subtopic_name": "Introduction",
+              "page_start": 46,
+              "page_end": 50
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "chapter_index": 3,
+      "chapter_name": "The Making of a Global World",
+      "page_start": 53,
+      "page_end": 56,
+      "topics": [
+        {
+          "topic_index": "3.1",
+          "topic_name": "The Pre-modern World",
+          "page_start": 53,
+          "page_end": 56,
+          "subtopics": [
+            {
+              "subtopic_index": "3.1.0",
+              "subtopic_name": "Introduction",
+              "page_start": 53,
+              "page_end": 53
+            },
+            {
+              "subtopic_index": "3.1.1",
+              "subtopic_name": "Silk Routes Link the World",
+              "page_start": 54,
+              "page_end": 54
+            },
+            {
+              "subtopic_index": "3.1.2",
+              "subtopic_name": "Food Travels: Spaghetti and Potato",
+              "page_start": 54,
+              "page_end": 55
+            },
+            {
+              "subtopic_index": "3.1.3",
+              "subtopic_name": "Conquest, Disease and Trade",
+              "page_start": 55,
+              "page_end": 56
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "chapter_index": 5,
+      "chapter_name": "Print Culture and the Modern World",
+      "page_start": 105,
+      "page_end": 128,
+      "topics": [
+        {
+          "topic_index": "5.0",
+          "topic_name": "Introduction",
+          "page_start": 105,
+          "page_end": 105,
+          "subtopics": [
+            {
+              "subtopic_index": "5.0.0",
+              "subtopic_name": "Introduction",
+              "page_start": 105,
+              "page_end": 105
+            }
+          ]
+        },
+        {
+          "topic_index": "5.1",
+          "topic_name": "The First Printed Books",
+          "page_start": 106,
+          "page_end": 107,
+          "subtopics": [
+            {
+              "subtopic_index": "5.1.0",
+              "subtopic_name": "Introduction",
+              "page_start": 106,
+              "page_end": 106
+            },
+            {
+              "subtopic_index": "5.1.1",
+              "subtopic_name": "Print in Japan",
+              "page_start": 106,
+              "page_end": 107
+            }
+          ]
+        },
+        {
+          "topic_index": "5.2",
+          "topic_name": "Print Comes to Europe",
+          "page_start": 108,
+          "page_end": 110,
+          "subtopics": [
+            {
+              "subtopic_index": "5.2.0",
+              "subtopic_name": "Introduction",
+              "page_start": 108,
+              "page_end": 108
+            },
+            {
+              "subtopic_index": "5.2.1",
+              "subtopic_name": "Gutenberg and the Printing Press",
+              "page_start": 109,
+              "page_end": 110
+            }
+          ]
+        },
+        {
+          "topic_index": "5.3",
+          "topic_name": "The Print Revolution and Its Impact",
+          "page_start": 111,
+          "page_end": 113,
+          "subtopics": [
+            {
+              "subtopic_index": "5.3.0",
+              "subtopic_name": "Introduction",
+              "page_start": 111,
+              "page_end": 111
+            },
+            {
+              "subtopic_index": "5.3.1",
+              "subtopic_name": "A New Reading Public",
+              "page_start": 111,
+              "page_end": 111
+            },
+            {
+              "subtopic_index": "5.3.2",
+              "subtopic_name": "Religious Debates and the Fear of Print",
+              "page_start": 112,
+              "page_end": 112
+            },
+            {
+              "subtopic_index": "5.3.3",
+              "subtopic_name": "Print and Dissent",
+              "page_start": 113,
+              "page_end": 113
+            }
+          ]
+        },
+        {
+          "topic_index": "5.4",
+          "topic_name": "The Reading Mania",
+          "page_start": 114,
+          "page_end": 116,
+          "subtopics": [
+            {
+              "subtopic_index": "5.4.0",
+              "subtopic_name": "Introduction",
+              "page_start": 114,
+              "page_end": 114
+            },
+            {
+              "subtopic_index": "5.4.1",
+              "subtopic_name": "‘Tremble, therefore, tyrants of the world!’",
+              "page_start": 115,
+              "page_end": 115
+            },
+            {
+              "subtopic_index": "5.4.2",
+              "subtopic_name": "Print Culture and the French Revolution",
+              "page_start": 115,
+              "page_end": 116
+            }
+          ]
+        },
+        {
+          "topic_index": "5.5",
+          "topic_name": "The Nineteenth Century",
+          "page_start": 117,
+          "page_end": 118,
+          "subtopics": [
+            {
+              "subtopic_index": "5.5.0",
+              "subtopic_name": "Introduction",
+              "page_start": 117,
+              "page_end": 117
+            },
+            {
+              "subtopic_index": "5.5.1",
+              "subtopic_name": "Children, Women and Workers",
+              "page_start": 117,
+              "page_end": 117
+            },
+            {
+              "subtopic_index": "5.5.2",
+              "subtopic_name": "Further Innovations",
+              "page_start": 118,
+              "page_end": 118
+            }
+          ]
+        },
+        {
+          "topic_index": "5.6",
+          "topic_name": "India and the World of Print",
+          "page_start": 119,
+          "page_end": 120,
+          "subtopics": [
+            {
+              "subtopic_index": "5.6.0",
+              "subtopic_name": "Introduction",
+              "page_start": 119,
+              "page_end": 119
+            },
+            {
+              "subtopic_index": "5.6.1",
+              "subtopic_name": "Manuscripts Before the Age of Print",
+              "page_start": 119,
+              "page_end": 120
+            },
+            {
+              "subtopic_index": "5.6.2",
+              "subtopic_name": "Print Comes to India",
+              "page_start": 120,
+              "page_end": 120
+            }
+          ]
+        },
+        {
+          "topic_index": "5.7",
+          "topic_name": "Religious Reform and Public Debates",
+          "page_start": 121,
+          "page_end": 122,
+          "subtopics": [
+            {
+              "subtopic_index": "5.7.0",
+              "subtopic_name": "Introduction",
+              "page_start": 121,
+              "page_end": 122
+            }
+          ]
+        },
+        {
+          "topic_index": "5.8",
+          "topic_name": "New Forms of Publication",
+          "page_start": 123,
+          "page_end": 126,
+          "subtopics": [
+            {
+              "subtopic_index": "5.8.0",
+              "subtopic_name": "Introduction",
+              "page_start": 123,
+              "page_end": 123
+            },
+            {
+              "subtopic_index": "5.8.1",
+              "subtopic_name": "Women and Print",
+              "page_start": 124,
+              "page_end": 125
+            },
+            {
+              "subtopic_index": "5.8.2",
+              "subtopic_name": "Print and the Poor People",
+              "page_start": 126,
+              "page_end": 126
+            }
+          ]
+        },
+        {
+          "topic_index": "5.9",
+          "topic_name": "Print and Censorship",
+          "page_start": 127,
+          "page_end": 128,
+          "subtopics": [
+            {
+              "subtopic_index": "5.9.0",
+              "subtopic_name": "Introduction",
+              "page_start": 127,
+              "page_end": 128
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
