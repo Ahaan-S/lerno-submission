@@ -23,7 +23,7 @@ export default function PrivacyPage() {
         <p>
           How Lerno collects, uses, and protects your personal data.
           <br />
-          Effective Date: May 1, 2025
+          Effective Date: May 1, 2026
           <br />
           Platform: lerno.in
           <br />

@@ -147,7 +147,7 @@ App runs at `http://localhost:3000` (marketing) and `http://app.localhost:3000` 
 
 ## Built By
 
-**Team Lerno** - YCS 2025–26
+**Team Lerno** - YCS 2026
 
 - Ahaan Sirohia
 - Hardik Choudhary

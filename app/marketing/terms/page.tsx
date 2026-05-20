@@ -23,7 +23,7 @@ export default function TermsPage() {
         <p>
           Please read these Terms carefully before using Lerno.
           <br />
-          Effective Date: May 1, 2025
+          Effective Date: May 1, 2026
           <br />
           Platform: lerno.in
           <br />
