@@ -121,7 +121,9 @@ supabase_schema.sql   full database schema
 
 ## Running Locally
 
-You'll need API keys for Supabase, OpenAI (embeddings), Qdrant, and either Vertex AI or Gemini AI Studio.
+> **For judges:** Local setup is not the intended evaluation path. The app depends on a pre-populated Qdrant vector database containing all NCERT content (built by running the chunking and embedding pipeline on the source PDFs), a live Supabase project, and Vertex AI / Gemini API access. None of these can be set up in a few minutes. Use the live demo at https://lerno.in instead.
+
+For contributors or developers who want to run their own instance:
 
 ```bash
 # install dependencies
@@ -129,9 +131,10 @@ npm install
 
 # set up env
 cp .env.example .env
-# fill in the values - comments in .env.example explain each one
+# fill in all values — see comments in .env.example
+# you will need: Supabase project, OpenAI key (embeddings), Qdrant instance, Vertex AI or Gemini key
 
-# set up Qdrant vector indexes (one-time)
+# one-time: initialise Qdrant vector indexes (requires Qdrant running and NCERT data pipeline completed)
 npm run qdrant:setup
 
 # start dev server
